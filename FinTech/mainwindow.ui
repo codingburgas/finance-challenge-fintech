@@ -271,7 +271,7 @@ QPushButton:checked:hover {
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>457</x>
+      <x>462</x>
       <y>340</y>
       <width>171</width>
       <height>21</height>
