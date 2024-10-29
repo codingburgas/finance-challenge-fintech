@@ -2,6 +2,8 @@ QT       += core gui sql
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
+QT += widgets
+
 CONFIG += c++17
 
 # You can make your code fail to compile if it uses deprecated APIs.
@@ -10,13 +12,16 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    secDiealog.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    secDiealog.h
 
 FORMS += \
-    mainwindow.ui
+    mainwindow.ui \
+    secDiealog.ui
 
 TRANSLATIONS += \
     FinTech_en_GB.ts
