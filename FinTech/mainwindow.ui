@@ -279,6 +279,9 @@ color: black;
     <property name="text">
      <string>Register Now!</string>
     </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="Line" name="line_5">
     <property name="geometry">
