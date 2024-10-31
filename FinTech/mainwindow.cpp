@@ -6,6 +6,7 @@
 #include <QtGui>
 #include <QMessageBox>
 #include "dialog.h"
+#include "balance.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -16,7 +17,7 @@ MainWindow::MainWindow(QWidget *parent)
     QPixmap pix("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/image 1.png");
     ui->logInImage->setPixmap(pix);
 
-    QPixmap pix2("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/account_circle.png");
+    QPixmap pix2("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/account_circle1.png");
     ui->iconImage->setPixmap(pix2);
 
     QPixmap pix3("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/Lock.png");
@@ -35,5 +36,13 @@ void MainWindow::on_registerButton_clicked()
     Dialog dialog;
     dialog.setModal(true);
     dialog.exec();
+}
+
+
+void MainWindow::on_pushButton_clicked()
+{
+    hide();
+    Balance *balance = new Balance();
+    balance->show();
 }
 
