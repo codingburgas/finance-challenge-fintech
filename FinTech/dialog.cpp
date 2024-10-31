@@ -1,5 +1,11 @@
 #include "dialog.h"
 #include "ui_dialog.h"
+#include <QPixmap>
+#include <QPushButton>
+#include <QtCore>
+#include <QtGui>
+#include <QMessageBox>
+#include <QtSql>
 
 Dialog::Dialog(QWidget *parent)
     : QDialog(parent)
@@ -8,10 +14,50 @@ Dialog::Dialog(QWidget *parent)
     ui->setupUi(this);
     QPixmap pix("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/image 1.png");
     ui->logInImage->setPixmap(pix);
-
+    DB_Connection = QSqlDatabase::addDatabase("QSQLITE");
+    DB_Connection.setDatabaseName("C:/Users/Nikolay/Desktop/DB_Test/DBTest.db");
+    if(!DB_Connection.open())
+    {
+        qDebug() << "Not Connected";
+    }
+    else
+    {
+        qDebug() << "connected";
+    }
 }
+
+
 
 Dialog::~Dialog()
 {
     delete ui;
 }
+
+
+
+
+
+void Dialog::on_regButton_clicked()
+{
+    DB_Connection.open();
+    QSqlDatabase::database().transaction();
+    QSqlQuery QueryInsertData(DB_Connection);
+    QueryInsertData.prepare("INSERT INTO DB_Table(ID,Username,Password,FirstName,LastName) VALUES(:ID,:Username,:Password,:FirstName,:LastName)");
+    QueryInsertData.bindValue(":ID", ui->txt_id->text());
+    QueryInsertData.bindValue(":Username", ui->txt_Susername->text());
+    QueryInsertData.bindValue(":Password", ui->txt_Spassword->text());
+    QueryInsertData.bindValue(":FirstName", ui->txt_Fname->text());
+    QueryInsertData.bindValue(":LastName", ui->txt_Lname->text());
+    //QueryInsertData.exec();
+    if (!QueryInsertData.exec()) {
+        qDebug() << "Insert query failed: " << QueryInsertData.lastError().text();
+       QSqlDatabase::database().rollback();
+   } else {
+      QSqlDatabase::database().commit();
+       qDebug() << "Data inserted successfully";
+    }
+
+    QSqlDatabase::database().commit();
+    DB_Connection.close();
+}
+
