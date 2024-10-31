@@ -6,6 +6,7 @@
 #include <QtGui>
 #include <QMessageBox>
 #include "dialog.h"
+#include "MainPage.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -21,6 +22,19 @@ MainWindow::MainWindow(QWidget *parent)
 
     QPixmap pix3("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/Lock.png");
     ui->lockImage->setPixmap(pix3);
+
+    DB_Connection = QSqlDatabase::addDatabase("QSQLITE");
+
+    DB_Connection.setDatabaseName("C:/Users/Nikolay/Documents/finance-challenge-fintech/DBTest.db");
+    if(!DB_Connection.open())
+    {
+        qDebug() << "Not Connected";
+    }
+    else
+    {
+        qDebug() << "connected";
+    }
+
 }
 
 MainWindow::~MainWindow()
@@ -36,4 +50,43 @@ void MainWindow::on_registerButton_clicked()
     dialog.setModal(true);
     dialog.exec();
 }
+
+
+void MainWindow::on_pushButton_clicked()
+{
+    QString UserName = ui->txt_username->text();
+    QString Password = ui->txt_password->text();
+
+
+        QSqlQuery QueryGetUser(DB_Connection);
+        QueryGetUser.prepare("SELECT * FROM DB_Table WHERE Username ='" + UserName + "' AND Password ='" + Password + "'");
+        if(QueryGetUser.exec())
+        {
+            int UserFindCount = 0;
+            while(QueryGetUser.next())
+            {
+                UserFindCount = UserFindCount + 1;
+
+            }
+            if(UserFindCount == 1)
+            {
+                QMessageBox::information(this,"Test", "Login Success.");
+                this->hide();
+                MainPage *mainpage = new MainPage();
+                mainpage->show();
+            }
+            else if(UserFindCount == 0)
+            {
+                QMessageBox::information(this,"Test", "Please Check Your Username and Password.");
+
+            }
+        }
+        else
+        {
+            QMessageBox::information(this,"Test", "Please Check Your Username and Password.");
+
+        }
+    }
+
+
 

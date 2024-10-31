@@ -6,6 +6,8 @@
 #include <QtDebug>
 #include <QFileInfo>
 #include"secDiealog.h"
+#include "MainPage.h"
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -28,10 +30,14 @@ private slots:
     void on_registerButton_clicked();
 
 
+    void on_pushButton_clicked();
+
 private:
     Ui::MainWindow *ui;
-
+QSqlDatabase DB_Connection;
     Register *SecDiealog;
+    MainPage *mainPage;
+
 };
 
 
