@@ -6,7 +6,6 @@
 #include <qtSql>
 #include <QtDebug>
 #include <QFileInfo>
-#include"secDiealog.h"
 
 namespace Ui {
 class Dialog;
@@ -24,6 +23,8 @@ private slots:
 
 
     void on_regButton_clicked();
+
+    void on_backToLogIn_clicked();
 
 private:
     Ui::Dialog *ui;

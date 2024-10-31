@@ -5,7 +5,8 @@
 #include <QtCore>
 #include <QtGui>
 #include <QMessageBox>
-#include <QtSql>
+#include <qtSql>
+#include "mainwindow.h"
 
 Dialog::Dialog(QWidget *parent)
     : QDialog(parent)
@@ -60,4 +61,15 @@ void Dialog::on_regButton_clicked()
     QSqlDatabase::database().commit();
     DB_Connection.close();
 }
+
+
+
+
+void Dialog::on_backToLogIn_clicked()
+{
+    hide();
+    MainWindow *mainwindow = new MainWindow();
+    mainwindow->show();
+}
+
 
