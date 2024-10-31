@@ -16,7 +16,8 @@ Dialog::Dialog(QWidget *parent)
     QPixmap pix("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/image 1.png");
     ui->logInImage->setPixmap(pix);
     DB_Connection = QSqlDatabase::addDatabase("QSQLITE");
-    DB_Connection.setDatabaseName("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/DBTest.db");
+
+    DB_Connection.setDatabaseName("C:/Users/Nikolay/Documents/finance-challenge-fintech/DBTest.db");
     if(!DB_Connection.open())
     {
         qDebug() << "Not Connected";
@@ -34,10 +35,6 @@ Dialog::~Dialog()
     delete ui;
 }
 
-
-
-
-
 void Dialog::on_regButton_clicked()
 {
     DB_Connection.open();
@@ -45,8 +42,8 @@ void Dialog::on_regButton_clicked()
     QSqlQuery QueryInsertData(DB_Connection);
     QueryInsertData.prepare("INSERT INTO DB_Table(ID,Username,Password,FirstName,LastName) VALUES(:ID,:Username,:Password,:FirstName,:LastName)");
     QueryInsertData.bindValue(":ID", ui->txt_id->text());
-    QueryInsertData.bindValue(":Username", ui->txt_Susername->text());
-    QueryInsertData.bindValue(":Password", ui->txt_Spassword->text());
+    QueryInsertData.bindValue(":Username", ui->txt_username->text());
+    QueryInsertData.bindValue(":Password", ui->txt_password->text());
     QueryInsertData.bindValue(":FirstName", ui->txt_Fname->text());
     QueryInsertData.bindValue(":LastName", ui->txt_Lname->text());
     //QueryInsertData.exec();
