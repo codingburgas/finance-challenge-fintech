@@ -15,7 +15,7 @@ Dialog::Dialog(QWidget *parent)
     QPixmap pix("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/image 1.png");
     ui->logInImage->setPixmap(pix);
     DB_Connection = QSqlDatabase::addDatabase("QSQLITE");
-    DB_Connection.setDatabaseName("C:/Users/Nikolay/Desktop/DB_Test/DBTest.db");
+    DB_Connection.setDatabaseName("C:/Users/Nikolay/Documents/finance-challenge-fintech/DBTest.db");
     if(!DB_Connection.open())
     {
         qDebug() << "Not Connected";
