@@ -5,10 +5,10 @@
 #include <QtCore>
 #include <QtGui>
 #include <QMessageBox>
-
+#include <QSqlQuery>
 #include "dialog.h"
 #include "balance.h"
-#include "MainPage.h"
+
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -57,9 +57,9 @@ void MainWindow::on_registerButton_clicked()
 void MainWindow::on_pushButton_clicked()
 {
 
-    hide();
-    Balance *balance = new Balance();
-    balance->show();
+    //hide();
+   // Balance *balance = new Balance();
+   // balance->show();
 
 
     QString UserName = ui->txt_username->text();
@@ -78,10 +78,10 @@ void MainWindow::on_pushButton_clicked()
             }
             if(UserFindCount == 1)
             {
-                QMessageBox::information(this,"Test", "Login Success.");
+
                 this->hide();
-                 Balance *balance = new Balance();
-               balance->show();
+                Balance *balance = new Balance(UserName, this);
+                balance->show();
             }
             else if(UserFindCount == 0)
             {

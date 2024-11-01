@@ -9,6 +9,7 @@
 #include "MainPage.h"
 
 
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
@@ -37,7 +38,6 @@ private:
 QSqlDatabase DB_Connection;
     Register *SecDiealog;
     MainPage *mainPage;
-
 };
 
 

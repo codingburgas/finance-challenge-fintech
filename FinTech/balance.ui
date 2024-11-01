@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1920</width>
-    <height>1080</height>
+    <width>1536</width>
+    <height>860</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -89,8 +89,7 @@ QPushButton:hover {
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">
-</string>
+    <string notr="true"/>
    </property>
    <property name="text">
     <string/>
@@ -302,6 +301,19 @@ QPushButton:hover {
     <string/>
    </property>
   </widget>
+  <widget class="QLabel" name="label_username">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>690</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Example Name</string>
+   </property>
+  </widget>
   <zorder>label</zorder>
   <zorder>Home</zorder>
   <zorder>Logo</zorder>
@@ -317,6 +329,7 @@ QPushButton:hover {
   <zorder>line</zorder>
   <zorder>account</zorder>
   <zorder>logOut</zorder>
+  <zorder>label_username</zorder>
  </widget>
  <resources/>
  <connections/>
