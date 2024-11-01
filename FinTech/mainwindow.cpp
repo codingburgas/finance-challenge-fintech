@@ -56,12 +56,6 @@ void MainWindow::on_registerButton_clicked()
 
 void MainWindow::on_pushButton_clicked()
 {
-
-    //hide();
-   // Balance *balance = new Balance();
-   // balance->show();
-
-
     QString UserName = ui->txt_username->text();
     QString Password = ui->txt_password->text();
 
@@ -78,7 +72,6 @@ void MainWindow::on_pushButton_clicked()
             }
             if(UserFindCount == 1)
             {
-
                 this->hide();
                 Balance *balance = new Balance(UserName, this);
                 balance->show();

@@ -25,6 +25,8 @@ public:
 private slots:
 
 
+    void on_label_b_linkActivated(const QString &link);
+
 private:
     Ui::Balance *ui;
     QSqlDatabase DB_Connection;
