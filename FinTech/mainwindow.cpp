@@ -27,7 +27,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     DB_Connection = QSqlDatabase::addDatabase("QSQLITE");
 
-    DB_Connection.setDatabaseName("C:/Users/Nikolay/Documents/finance-challenge-fintech/DBTest.db");
+    DB_Connection.setDatabaseName("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/DBTest.db");
     if(!DB_Connection.open())
     {
         qDebug() << "Not Connected";
@@ -57,9 +57,6 @@ void MainWindow::on_registerButton_clicked()
 void MainWindow::on_pushButton_clicked()
 {
 
-    hide();
-    Balance *balance = new Balance();
-    balance->show();
 
 
     QString UserName = ui->txt_username->text();
@@ -78,7 +75,6 @@ void MainWindow::on_pushButton_clicked()
             }
             if(UserFindCount == 1)
             {
-                QMessageBox::information(this,"Test", "Login Success.");
                 this->hide();
                  Balance *balance = new Balance();
                balance->show();

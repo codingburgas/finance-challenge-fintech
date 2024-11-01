@@ -20,6 +20,13 @@ Balance::Balance(QWidget *parent)
     ui->account->setPixmap(pix5);
     QPixmap pix6("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/logOut.png");
     ui->logOut->setPixmap(pix6);
+    QPixmap pix7("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/settings.png");
+    ui->settings->setPixmap(pix7);
+    QPixmap pix8("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/options.png");
+    ui->option->setPixmap(pix8.scaled(450,200));
+    QPixmap pix9("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/visaCard.png");
+    ui->visaCard->setPixmap(pix9);
+
 }
 
 Balance::~Balance()
