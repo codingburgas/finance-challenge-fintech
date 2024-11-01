@@ -16,7 +16,9 @@ Balance::Balance(const QString &username, QWidget *parent)  // Constructor with 
     ui->setupUi(this);
 
     // Set the label to show the username
-   ui->label_username->setText("Welcome, " + username);
+   ui->label_username->setText( username);
+    ui->label_b->setText("Welcome, " + username);
+   ui->label_card->setText(username);
 
     QPixmap pix("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/image 1.png");
     ui->Logo->setPixmap(pix);
@@ -32,7 +34,7 @@ Balance::Balance(const QString &username, QWidget *parent)  // Constructor with 
     ui->account->setPixmap(pix5);
     QPixmap pix6("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/logOut.png");
     ui->logOut->setPixmap(pix6);
-<<<<<<< HEAD
+
     DB_Connection = QSqlDatabase::addDatabase("QSQLITE");
 
     DB_Connection.setDatabaseName("C:/Users/Nikolay/Documents/finance-challenge-fintech/DBTest.db");
@@ -45,14 +47,14 @@ Balance::Balance(const QString &username, QWidget *parent)  // Constructor with 
         qDebug() << "connected";
     }
 
-=======
+
     QPixmap pix7("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/settings.png");
     ui->settings->setPixmap(pix7);
     QPixmap pix8("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/options.png");
     ui->option->setPixmap(pix8.scaled(450,200));
     QPixmap pix9("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/visaCard.png");
     ui->visaCard->setPixmap(pix9);
->>>>>>> 1e0b0066718121a7584c1bb5f9d6dbcce855ff2f
+
 
 }
 
@@ -62,4 +64,10 @@ Balance::~Balance()
 }
 
 
+
+
+void Balance::on_label_b_linkActivated(const QString &link)
+{
+
+}
 
