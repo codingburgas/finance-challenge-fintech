@@ -26,7 +26,6 @@ HEADERS += \
 FORMS += \
     balance.ui \
     dialog.ui \
-    mainpage.ui \
     mainwindow.ui
 
 TRANSLATIONS += \

@@ -107,21 +107,23 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>390</x>
+      <x>381</x>
       <y>30</y>
-      <width>211</width>
+      <width>231</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>inter</family>
       <pointsize>-1</pointsize>
       <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
      <string notr="true">font-size: 30px;
-color: black;</string>
+color: black;
+font-family:inter;</string>
     </property>
     <property name="text">
      <string>Log In FinTech!</string>
@@ -144,7 +146,8 @@ color: black;</string>
     border-radius: 14px;              
     border: 1px solid #65558F;         
     background-color: #65558F;   
-    color: white;                     
+    color: white;                
+	font-family:inter;     
 }
 
 QPushButton:checked {
@@ -189,11 +192,13 @@ QPushButton:checked:hover {
     </property>
     <property name="font">
      <font>
+      <family>inter</family>
       <pointsize>12</pointsize>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color:#757575;</string>
+     <string notr="true">color:#757575;
+font-family:inter;</string>
     </property>
     <property name="text">
      <string>Don't have an account?</string>
@@ -217,14 +222,15 @@ QPushButton:checked:hover {
      <rect>
       <x>420</x>
       <y>110</y>
-      <width>113</width>
+      <width>191</width>
       <height>28</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">background: transparent;
 border: none;
-font-size: 20px;</string>
+font-size: 20px;
+font-family:inter;</string>
     </property>
     <property name="placeholderText">
      <string>Username</string>
@@ -235,7 +241,7 @@ font-size: 20px;</string>
      <rect>
       <x>420</x>
       <y>180</y>
-      <width>113</width>
+      <width>191</width>
       <height>28</height>
      </rect>
     </property>
@@ -243,7 +249,7 @@ font-size: 20px;</string>
      <string notr="true">background: transparent;
 border: none;
 font-size: 20px;
-</string>
+font-family:inter;</string>
     </property>
     <property name="text">
      <string/>
@@ -263,6 +269,7 @@ font-size: 20px;
     </property>
     <property name="font">
      <font>
+      <family>inter</family>
       <pointsize>-1</pointsize>
      </font>
     </property>
@@ -274,6 +281,7 @@ font-size: 20px;
 border: none;
 font-size: 16px;
 color: black;
+font-family:inter;
 </string>
     </property>
     <property name="text">

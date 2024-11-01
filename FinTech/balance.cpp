@@ -32,6 +32,7 @@ Balance::Balance(const QString &username, QWidget *parent)  // Constructor with 
     ui->account->setPixmap(pix5);
     QPixmap pix6("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/logOut.png");
     ui->logOut->setPixmap(pix6);
+<<<<<<< HEAD
     DB_Connection = QSqlDatabase::addDatabase("QSQLITE");
 
     DB_Connection.setDatabaseName("C:/Users/Nikolay/Documents/finance-challenge-fintech/DBTest.db");
@@ -44,6 +45,14 @@ Balance::Balance(const QString &username, QWidget *parent)  // Constructor with 
         qDebug() << "connected";
     }
 
+=======
+    QPixmap pix7("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/settings.png");
+    ui->settings->setPixmap(pix7);
+    QPixmap pix8("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/options.png");
+    ui->option->setPixmap(pix8.scaled(450,200));
+    QPixmap pix9("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/visaCard.png");
+    ui->visaCard->setPixmap(pix9);
+>>>>>>> 1e0b0066718121a7584c1bb5f9d6dbcce855ff2f
 
 }
 
