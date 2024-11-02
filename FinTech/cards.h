@@ -30,10 +30,13 @@ private slots:
 
     void on_pushButton_5_clicked();
 
+    void on_label_username_cards_linkActivated(const QString &link);
+
 private:
     Ui::Cards *ui;
     QSqlDatabase DB_Connection;
     QString username;
+
 };
 
 #endif // CARDS_H

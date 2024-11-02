@@ -87,7 +87,12 @@ void Cards::on_pushButton_5_clicked()
 {
 
 }
-void Balance::on_label_b_linkActivated(const QString &link)
+
+
+
+
+void Cards::on_label_username_cards_linkActivated(const QString &link)
 {
 
 }
+

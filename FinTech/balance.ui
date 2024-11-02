@@ -1443,7 +1443,7 @@ font-family: inter;</string>
     <string>Total current balance</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_11">
+  <widget class="QLabel" name="label_money">
    <property name="geometry">
     <rect>
      <x>800</x>
@@ -1457,7 +1457,7 @@ font-family: inter;</string>
 font-weight:bold;</string>
    </property>
    <property name="text">
-    <string>$111.111.111</string>
+    <string>11111</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_12">
@@ -2322,7 +2322,7 @@ font-size:16px;</string>
   <zorder>label_7</zorder>
   <zorder>label_9</zorder>
   <zorder>label_10</zorder>
-  <zorder>label_11</zorder>
+  <zorder>label_money</zorder>
   <zorder>label_12</zorder>
   <zorder>pushButton_7</zorder>
   <zorder>label_13</zorder>

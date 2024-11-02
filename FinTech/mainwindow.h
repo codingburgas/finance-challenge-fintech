@@ -38,6 +38,8 @@ private:
 QSqlDatabase DB_Connection;
     Register *SecDiealog;
     MainPage *mainPage;
+
+
 };
 
 

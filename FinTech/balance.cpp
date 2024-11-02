@@ -7,6 +7,7 @@
 #include <QtGui>
 #include <QMessageBox>
 #include <qtSql>
+#include <QSqlQuery>
 #include <QSqlDatabase>
 #include "transactions.h"
 #include "cards.h"
@@ -16,12 +17,16 @@ Balance::Balance(const QString &username, QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::Balance)
     , username(username)
+
 {
     ui->setupUi(this);
 
     ui->label_username->setText(username);
     ui->label_b->setText("Welcome, " + username + "!");
     ui->label_card->setText(username + "'s cards!");
+
+
+
 
 
     QPixmap pix("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/image 1.png");
@@ -47,6 +52,8 @@ Balance::Balance(const QString &username, QWidget *parent)
     {
         qDebug() << "connected";
     }
+
+
     QPixmap pix7("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/settings.png");
     ui->settings->setPixmap(pix7);
     QPixmap pix8("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/options.png");
@@ -60,6 +67,9 @@ Balance::Balance(const QString &username, QWidget *parent)
     QPixmap pix12("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/Compass.png");
     ui->Compas->setPixmap(pix12);
 }
+
+
+
 
 Balance::~Balance()
 {
@@ -129,5 +139,23 @@ void Balance::on_pushButton_6_clicked()
     Cards cards(nullptr, username);
     cards.setModal(true);
     cards.exec();
+}
+
+
+void Balance::on_label_b_linkActivated(const QString &link)
+{
+
+}
+
+
+void Balance::on_label_username_linkActivated(const QString &link)
+{
+
+}
+
+
+void Balance::on_label_money_linkActivated(const QString &link)
+{
+
 }
 

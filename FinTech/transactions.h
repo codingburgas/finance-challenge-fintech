@@ -33,6 +33,7 @@ private slots:
 private:
     Ui::Transactions *ui;
       QString username;
+
 };
 
 #endif // TRANSACTIONS_H

@@ -2,6 +2,10 @@
 #define MAKETRAN_H
 
 #include <QDialog>
+#include <QMainWindow>
+#include <qtSql>
+#include <QtDebug>
+#include <QFileInfo>
 
 namespace Ui {
 class makeTran;
@@ -12,7 +16,7 @@ class makeTran : public QDialog
     Q_OBJECT
 
 public:
-    explicit makeTran(QWidget *parent = nullptr, const QString &username="");
+    explicit makeTran(QWidget *parent = nullptr, const QString &username="", int userId = -1);
     ~makeTran();
 
 private slots:
@@ -23,6 +27,8 @@ private slots:
 private:
     Ui::makeTran *ui;
     QString username;
+    QSqlDatabase DB_Connection;
+    int userId;
 };
 
 #endif // MAKETRAN_H

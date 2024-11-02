@@ -41,10 +41,17 @@ private slots:
 
     void on_pushButton_6_clicked();
 
+
+
+    void on_label_money_linkActivated(const QString &link);
+
+    void on_label_username_linkActivated(const QString &link);
+
 private:
     Ui::Balance *ui;
     QSqlDatabase DB_Connection;
     QString username;
+
 
 
 };
