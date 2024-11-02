@@ -5,7 +5,7 @@
 <p align="center">
 <img alt="GitHub last commit" src="https://img.shields.io/github.com/codingburgas/finance-challenge-fintech">
 <img alt="GitHub repo size" src="https://img.shields.io/github.com/codingburgas/finance-challenge-fintech">
-<img alt="GitHub Repo stars" src="https://img.shields.io/github.com/codingburgas/finance-challenge-fintech">
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/codingburgas/finance-challenge-fintech">
 </p>
 <br>
 
