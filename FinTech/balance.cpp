@@ -8,6 +8,7 @@
 #include <QMessageBox>
 #include <qtSql>
 #include <QSqlDatabase>
+#include "transactions.h"
 
 Balance::Balance(const QString &username, QWidget *parent)  // Constructor with username
     : QDialog(parent)
@@ -16,7 +17,7 @@ Balance::Balance(const QString &username, QWidget *parent)  // Constructor with 
     ui->setupUi(this);
 
     // Set the label to show the username
-   ui->label_username->setText( username);
+   ui->label_username->setText(username);
     ui->label_b->setText("Welcome, " + username);
    ui->label_card->setText(username + "'s cards");
 
@@ -48,9 +49,9 @@ Balance::Balance(const QString &username, QWidget *parent)  // Constructor with 
     QPixmap pix7("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/settings.png");
     ui->settings->setPixmap(pix7);
     QPixmap pix8("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/options.png");
-    ui->option->setPixmap(pix8.scaled(450,200));
+    ui->option->setPixmap(pix8.scaled(361,161));
     QPixmap pix9("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/visaCard.png");
-    ui->visaCard->setPixmap(pix9);
+    ui->visaCard->setPixmap(pix9.scaled(321,191));
 }
 
 Balance::~Balance()
@@ -64,5 +65,15 @@ Balance::~Balance()
 void Balance::on_label_b_linkActivated(const QString &link)
 {
 
+}
+
+
+
+void Balance::on_pushButton_3_clicked()
+{
+    hide();
+    Transactions transactions;
+    transactions.setModal(true);
+    transactions.exec();
 }
 

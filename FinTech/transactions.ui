@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Transactions</class>
+ <widget class="QDialog" name="Transactions">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1536</width>
+    <height>864</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="payImg">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>428</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background: transparent;
+border:none;
+border-radius: 8;
+font-size: 16px;
+padding-left:45px;
+ font-weight: bold;
+}
+
+QPushButton:hover {
+	border: 1.5px solid #1D1B20;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Payment Transfer</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Logo">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>20</y>
+     <width>241</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">object-fit: cover;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="settings">
+   <property name="geometry">
+    <rect>
+     <x>36</x>
+     <y>942</y>
+     <width>41</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>34</x>
+     <y>943</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 20px;
+font-family: inter;
+background: transparent;
+border:none;
+text-align: right;</string>
+   </property>
+   <property name="text">
+    <string>Settings</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>492</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background: transparent;
+border:none;
+border-radius: 8;
+font-size: 16px;
+font-weight: bold;
+padding-right: 50px;
+}
+
+QPushButton:hover {
+	border: 1.5px solid #1D1B20;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Card</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="dollarSign">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>434</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="account">
+   <property name="geometry">
+    <rect>
+     <x>26</x>
+     <y>1002</y>
+     <width>34</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="logOut">
+   <property name="geometry">
+    <rect>
+     <x>188</x>
+     <y>1002</y>
+     <width>34</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_username">
+   <property name="geometry">
+    <rect>
+     <x>64</x>
+     <y>997</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size:18px;</string>
+   </property>
+   <property name="text">
+    <string>Example Name</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Home">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>300</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>300</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background: transparent;
+border-radius: 8;
+font-size: 16px;
+padding-right:50px;
+ font-weight: bold;
+}
+
+QPushButton:hover {
+	border: 1.5px solid #1D1B20;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Home</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Card">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>497</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>987</y>
+     <width>211</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Orientation::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fileImg">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>370</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>251</width>
+     <height>864</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #A3BAA9;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>364</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background: transparent;
+border:1.5px solid #1D1B20;
+border-radius: 8;
+font-size: 16px;
+padding-left:50px;
+ font-weight: bold;
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Transaction History</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>24</x>
+     <y>756</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 20px;
+font-family: inter;
+background: transparent;
+border:none;
+text-align: right;</string>
+   </property>
+   <property name="text">
+    <string>Settings</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="account_2">
+   <property name="geometry">
+    <rect>
+     <x>16</x>
+     <y>815</y>
+     <width>34</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_username_2">
+   <property name="geometry">
+    <rect>
+     <x>54</x>
+     <y>810</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size:18px;</string>
+   </property>
+   <property name="text">
+    <string>Example Name</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="logOut_2">
+   <property name="geometry">
+    <rect>
+     <x>178</x>
+     <y>815</y>
+     <width>34</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>800</y>
+     <width>211</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Orientation::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="settings_2">
+   <property name="geometry">
+    <rect>
+     <x>23</x>
+     <y>755</y>
+     <width>41</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_17">
+   <property name="geometry">
+    <rect>
+     <x>1330</x>
+     <y>152</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 40px;
+font-family: inter;</string>
+   </property>
+   <property name="text">
+    <string>Date</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>315</x>
+     <y>142</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 40px;
+font-family: inter;</string>
+   </property>
+   <property name="text">
+    <string>Transactions</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>706</x>
+     <y>143</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 40px;
+font-family: inter;</string>
+   </property>
+   <property name="text">
+    <string>Amount</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>1025</x>
+     <y>141</y>
+     <width>161</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 40px;
+font-family: inter;</string>
+   </property>
+   <property name="text">
+    <string>Category</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_18">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>0</y>
+     <width>381</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 45px;
+font-family: inter;</string>
+   </property>
+   <property name="text">
+    <string>Transaction History</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_3">
+   <property name="geometry">
+    <rect>
+     <x>317</x>
+     <y>60</y>
+     <width>371</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Orientation::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_19">
+   <property name="geometry">
+    <rect>
+     <x>312</x>
+     <y>70</y>
+     <width>561</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 25px;
+font-family: inter;</string>
+   </property>
+   <property name="text">
+    <string>Manage your transactions here if needed!</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>1252</x>
+     <y>14</y>
+     <width>231</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid black;
+border-radius: 10;</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QLabel" name="label_21">
+    <property name="geometry">
+     <rect>
+      <x>39</x>
+      <y>39</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 25px;
+font-family: inter;
+color: #6750A4;
+border: none;</string>
+    </property>
+    <property name="text">
+     <string>$111.111.111</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_20">
+    <property name="geometry">
+     <rect>
+      <x>28</x>
+      <y>0</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 25px;
+font-family: inter;
+border:none;</string>
+    </property>
+    <property name="text">
+     <string>Current Balance</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_22">
+   <property name="geometry">
+    <rect>
+     <x>1019</x>
+     <y>243</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;
+font-family: inter;
+color: #6750A4;
+</string>
+   </property>
+   <property name="text">
+    <string>Subscribtions</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_23">
+   <property name="geometry">
+    <rect>
+     <x>381</x>
+     <y>230</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;
+font-family: inter;</string>
+   </property>
+   <property name="text">
+    <string>Spotify</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_24">
+   <property name="geometry">
+    <rect>
+     <x>725</x>
+     <y>240</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;
+font-family: inter;
+color: #8B1F1F;</string>
+   </property>
+   <property name="text">
+    <string>$-10.00</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_25">
+   <property name="geometry">
+    <rect>
+     <x>1317</x>
+     <y>240</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;
+font-family: inter;</string>
+   </property>
+   <property name="text">
+    <string>31/10/24</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_26">
+   <property name="geometry">
+    <rect>
+     <x>725</x>
+     <y>337</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;
+font-family: inter;
+color: #8B1F1F;</string>
+   </property>
+   <property name="text">
+    <string>$-10.00</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_27">
+   <property name="geometry">
+    <rect>
+     <x>1317</x>
+     <y>337</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;
+font-family: inter;</string>
+   </property>
+   <property name="text">
+    <string>31/10/24</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_28">
+   <property name="geometry">
+    <rect>
+     <x>381</x>
+     <y>327</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;
+font-family: inter;</string>
+   </property>
+   <property name="text">
+    <string>Spotify</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_29">
+   <property name="geometry">
+    <rect>
+     <x>1019</x>
+     <y>340</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;
+font-family: inter;
+color: #6750A4;
+</string>
+   </property>
+   <property name="text">
+    <string>Subscribtions</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_30">
+   <property name="geometry">
+    <rect>
+     <x>725</x>
+     <y>440</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;
+font-family: inter;
+color: #8B1F1F;</string>
+   </property>
+   <property name="text">
+    <string>$-10.00</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_31">
+   <property name="geometry">
+    <rect>
+     <x>1317</x>
+     <y>440</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;
+font-family: inter;</string>
+   </property>
+   <property name="text">
+    <string>31/10/24</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_32">
+   <property name="geometry">
+    <rect>
+     <x>381</x>
+     <y>430</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;
+font-family: inter;</string>
+   </property>
+   <property name="text">
+    <string>Spotify</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_33">
+   <property name="geometry">
+    <rect>
+     <x>1019</x>
+     <y>443</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;
+font-family: inter;
+color: #6750A4;
+</string>
+   </property>
+   <property name="text">
+    <string>Subscribtions</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_34">
+   <property name="geometry">
+    <rect>
+     <x>725</x>
+     <y>545</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;
+font-family: inter;
+color: #8B1F1F;</string>
+   </property>
+   <property name="text">
+    <string>$-10.00</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_35">
+   <property name="geometry">
+    <rect>
+     <x>1317</x>
+     <y>545</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;
+font-family: inter;</string>
+   </property>
+   <property name="text">
+    <string>31/10/24</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_36">
+   <property name="geometry">
+    <rect>
+     <x>381</x>
+     <y>535</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;
+font-family: inter;</string>
+   </property>
+   <property name="text">
+    <string>Spotify</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_37">
+   <property name="geometry">
+    <rect>
+     <x>1019</x>
+     <y>548</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;
+font-family: inter;
+color: #6750A4;
+</string>
+   </property>
+   <property name="text">
+    <string>Subscribtions</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_38">
+   <property name="geometry">
+    <rect>
+     <x>725</x>
+     <y>647</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;
+font-family: inter;
+color: #8B1F1F;</string>
+   </property>
+   <property name="text">
+    <string>$-10.00</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_39">
+   <property name="geometry">
+    <rect>
+     <x>1317</x>
+     <y>647</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;
+font-family: inter;</string>
+   </property>
+   <property name="text">
+    <string>31/10/24</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_40">
+   <property name="geometry">
+    <rect>
+     <x>381</x>
+     <y>637</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;
+font-family: inter;</string>
+   </property>
+   <property name="text">
+    <string>Spotify</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_41">
+   <property name="geometry">
+    <rect>
+     <x>1019</x>
+     <y>650</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;
+font-family: inter;
+color: #6750A4;
+</string>
+   </property>
+   <property name="text">
+    <string>Subscribtions</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_42">
+   <property name="geometry">
+    <rect>
+     <x>725</x>
+     <y>752</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;
+font-family: inter;
+color: #8B1F1F;</string>
+   </property>
+   <property name="text">
+    <string>$-10.00</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_43">
+   <property name="geometry">
+    <rect>
+     <x>1317</x>
+     <y>752</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;
+font-family: inter;</string>
+   </property>
+   <property name="text">
+    <string>31/10/24</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_44">
+   <property name="geometry">
+    <rect>
+     <x>381</x>
+     <y>742</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;
+font-family: inter;</string>
+   </property>
+   <property name="text">
+    <string>Spotify</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_45">
+   <property name="geometry">
+    <rect>
+     <x>1019</x>
+     <y>755</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;
+font-family: inter;
+color: #6750A4;
+</string>
+   </property>
+   <property name="text">
+    <string>Subscribtions</string>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>payImg</zorder>
+  <zorder>Logo</zorder>
+  <zorder>settings</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton_5</zorder>
+  <zorder>dollarSign</zorder>
+  <zorder>account</zorder>
+  <zorder>logOut</zorder>
+  <zorder>label_username</zorder>
+  <zorder>Home</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>Card</zorder>
+  <zorder>line</zorder>
+  <zorder>fileImg</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>account_2</zorder>
+  <zorder>label_username_2</zorder>
+  <zorder>logOut_2</zorder>
+  <zorder>line_2</zorder>
+  <zorder>settings_2</zorder>
+  <zorder>label_17</zorder>
+  <zorder>label_14</zorder>
+  <zorder>label_15</zorder>
+  <zorder>label_16</zorder>
+  <zorder>label_18</zorder>
+  <zorder>line_3</zorder>
+  <zorder>label_19</zorder>
+  <zorder>groupBox</zorder>
+  <zorder>label_22</zorder>
+  <zorder>label_23</zorder>
+  <zorder>label_24</zorder>
+  <zorder>label_25</zorder>
+  <zorder>label_26</zorder>
+  <zorder>label_27</zorder>
+  <zorder>label_28</zorder>
+  <zorder>label_29</zorder>
+  <zorder>label_30</zorder>
+  <zorder>label_31</zorder>
+  <zorder>label_32</zorder>
+  <zorder>label_33</zorder>
+  <zorder>label_34</zorder>
+  <zorder>label_35</zorder>
+  <zorder>label_36</zorder>
+  <zorder>label_37</zorder>
+  <zorder>label_38</zorder>
+  <zorder>label_39</zorder>
+  <zorder>label_40</zorder>
+  <zorder>label_41</zorder>
+  <zorder>label_42</zorder>
+  <zorder>label_43</zorder>
+  <zorder>label_44</zorder>
+  <zorder>label_45</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -14,19 +14,22 @@ SOURCES += \
     balance.cpp \
     dialog.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    transactions.cpp
     balance.cpp \
 
 HEADERS += \
     balance.h \
     dialog.h \
-    mainwindow.h
+    mainwindow.h \
+    transactions.h
     balance.h \
 
 FORMS += \
     balance.ui \
     dialog.ui \
-    mainwindow.ui
+    mainwindow.ui \
+    transactions.ui
 
 TRANSLATIONS += \
     FinTech_en_GB.ts
