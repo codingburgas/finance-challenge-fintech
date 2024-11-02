@@ -67,7 +67,7 @@
 # 🧒 Our Team
 | <h2>Name</h2> | <h2>Role</h2> | <h2>Grade</h2> |
 | :---:   | :---: | :---: |
-| <h3><a href = "https://github.com/SSStefanov22">Simeon Stefanov</a></h3> | Scrum  | 10th grade |
+| <h3><a href = "https://github.com/SSStefanov22">Simeon Stefanov</a></h3> | Scrum Trainer  | 10th grade |
 | <h3><a href = "https://github.com/NGKulov22">Nikolai Kulov</a></h3> | Backend developer | 10th grade |
 | <h3><a href = "https://github.com/KDDimitrov22">Kristian Dimitrov</a></h3> | Frontend developer | 10th grade |
 | <h3><a href = "https://github.com/PKHristova22">Perla Hristova</a></h3> |  Designer  | 10th grade |
