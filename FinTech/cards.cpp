@@ -1,13 +1,20 @@
-#include "transactions.h"
-#include "ui_transactions.h"
 #include "cards.h"
+#include "ui_cards.h"
 #include "mainwindow.h"
+#include <QPixmap>
+#include <QPushButton>
+#include <QtCore>
+#include <QtGui>
+#include <QMessageBox>
+#include <qtSql>
+#include <QSqlDatabase>
+#include "transactions.h"
 
-
-Transactions::Transactions(QWidget *parent)
+Cards::Cards(QWidget *parent)
     : QDialog(parent)
-    , ui(new Ui::Transactions)
+    , ui(new Ui::Cards)
 {
+    ui->setupUi(this);
     ui->setupUi(this);
     QPixmap pix("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/image 1.png");
     ui->Logo->setPixmap(pix);
@@ -23,29 +30,36 @@ Transactions::Transactions(QWidget *parent)
     ui->logOut_2->setPixmap(pix6);
     QPixmap pix7("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/settings.png");
     ui->settings_2->setPixmap(pix7);
+    QPixmap pix10("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/visa-card2.png");
+    ui->visaCard->setPixmap(pix10);
+    QPixmap pix11("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/emptyVisa.png");
+    ui->emptyVisa_4->setPixmap(pix11);
+    QPixmap pix12("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/emptyVisa.png");
+    ui->emptyVisa_5->setPixmap(pix12);
+    QPixmap pix13("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/emptyVisa.png");
+    ui->emptyVisa_6->setPixmap(pix13);
 }
 
-Transactions::~Transactions()
+Cards::~Cards()
 {
     delete ui;
 }
 
-void Transactions::on_pushButton_5_clicked()
+void Cards::on_pushButton_6_clicked()
 {
     hide();
-    Cards cards;
-    cards.setModal(true);
-    cards.exec();
+    Transactions *transactions = new Transactions();
+    transactions->show();
 }
 
 
-void Transactions::on_pushButton_clicked()
+void Cards::on_pushButton_clicked()
 {
 
 }
 
 
-void Transactions::on_logOutBut_2_clicked()
+void Cards::on_logOutBut_clicked()
 {
     hide();
     MainWindow *mainwindow = new MainWindow();

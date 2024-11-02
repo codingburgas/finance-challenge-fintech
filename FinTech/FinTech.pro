@@ -12,6 +12,7 @@ CONFIG += c++17
 
 SOURCES += \
     balance.cpp \
+    cards.cpp \
     dialog.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -20,6 +21,7 @@ SOURCES += \
 
 HEADERS += \
     balance.h \
+    cards.h \
     dialog.h \
     mainwindow.h \
     transactions.h
@@ -27,6 +29,7 @@ HEADERS += \
 
 FORMS += \
     balance.ui \
+    cards.ui \
     dialog.ui \
     mainwindow.ui \
     transactions.ui

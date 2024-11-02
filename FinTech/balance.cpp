@@ -9,6 +9,7 @@
 #include <qtSql>
 #include <QSqlDatabase>
 #include "transactions.h"
+#include "cards.h"
 
 Balance::Balance(const QString &username, QWidget *parent)  // Constructor with username
     : QDialog(parent)
@@ -27,8 +28,6 @@ Balance::Balance(const QString &username, QWidget *parent)  // Constructor with 
     ui->Home->setPixmap(pix1.scaled(40,40));
     QPixmap pix2("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/File.png");
     ui->fileImg->setPixmap(pix2.scaled(40,40));
-    QPixmap pix3("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/dollarSign.png");
-    ui->dollarSign->setPixmap(pix3.scaled(40,40));
     QPixmap pix4("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/Card.png");
     ui->Card->setPixmap(pix4.scaled(40,40));
     QPixmap pix5("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/account_circle.png");
@@ -75,5 +74,37 @@ void Balance::on_pushButton_3_clicked()
     Transactions transactions;
     transactions.setModal(true);
     transactions.exec();
+}
+
+
+void Balance::on_pushButton_5_clicked()
+{
+    hide();
+    Cards cards;
+    cards.setModal(true);
+    cards.exec();
+}
+
+
+void Balance::on_pushButton_7_clicked()
+{
+    hide();
+    Transactions transactions;
+    transactions.setModal(true);
+    transactions.exec();
+}
+
+
+void Balance::on_pushButton_9_clicked()
+{
+
+}
+
+
+void Balance::on_logOutBut_clicked()
+{
+    hide();
+    MainWindow *mainwindow = new MainWindow();
+    mainwindow->show();
 }
 

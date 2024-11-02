@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Cards</class>
+ <widget class="QDialog" name="Cards">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1536</width>
+    <height>864</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>24</x>
+     <y>756</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 20px;
+font-family: inter;
+background: transparent;
+border:none;
+text-align: right;</string>
+   </property>
+   <property name="text">
+    <string>Settings</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="logOut_2">
+   <property name="geometry">
+    <rect>
+     <x>178</x>
+     <y>815</y>
+     <width>34</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>434</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background: transparent;
+border:1.5px solid #1D1B20;
+border-radius: 8;
+font-size: 16px;
+font-weight: bold;
+padding-right: 50px;
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Card</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Home">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>300</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>300</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background: transparent;
+border-radius: 8;
+font-size: 16px;
+padding-right:50px;
+ font-weight: bold;
+}
+
+QPushButton:hover {
+	border: 1.5px solid #1D1B20;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Home</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>251</width>
+     <height>864</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #A3BAA9;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Logo">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>20</y>
+     <width>241</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">object-fit: cover;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fileImg">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>370</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>364</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background: transparent;
+border:none;
+border-radius: 8;
+font-size: 16px;
+padding-left:50px;
+ font-weight: bold;
+}
+
+QPushButton:hover {
+	border: 1.5px solid #1D1B20;
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Transaction History</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_username_2">
+   <property name="geometry">
+    <rect>
+     <x>54</x>
+     <y>810</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size:18px;</string>
+   </property>
+   <property name="text">
+    <string>Example Name</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>800</y>
+     <width>211</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Orientation::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Card">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>439</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="account_2">
+   <property name="geometry">
+    <rect>
+     <x>16</x>
+     <y>815</y>
+     <width>34</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="settings_2">
+   <property name="geometry">
+    <rect>
+     <x>23</x>
+     <y>755</y>
+     <width>41</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>10</y>
+     <width>461</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: inter;
+font-size: 45px;</string>
+   </property>
+   <property name="text">
+    <string>Example Name's Cards</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_3">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>76</y>
+     <width>451</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:black;</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Orientation::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>70</y>
+     <width>411</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: inter;
+font-size: 25px;</string>
+   </property>
+   <property name="text">
+    <string>Manage your account cards here!</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="qpush">
+   <property name="geometry">
+    <rect>
+     <x>345</x>
+     <y>210</y>
+     <width>441</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+background: transparent;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_9">
+   <property name="geometry">
+    <rect>
+     <x>1260</x>
+     <y>800</y>
+     <width>321</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+background: transparent;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="emptyVisa">
+   <property name="geometry">
+    <rect>
+     <x>1012</x>
+     <y>210</y>
+     <width>441</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+background: transparent;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="emptyVisa_2">
+   <property name="geometry">
+    <rect>
+     <x>345</x>
+     <y>549</y>
+     <width>441</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+background: transparent;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="emptyVisa_3">
+   <property name="geometry">
+    <rect>
+     <x>1012</x>
+     <y>549</y>
+     <width>441</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+background: transparent;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="visaCard">
+   <property name="geometry">
+    <rect>
+     <x>345</x>
+     <y>210</y>
+     <width>441</width>
+     <height>286</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="emptyVisa_6">
+   <property name="geometry">
+    <rect>
+     <x>1012</x>
+     <y>549</y>
+     <width>441</width>
+     <height>286</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="emptyVisa_4">
+   <property name="geometry">
+    <rect>
+     <x>1012</x>
+     <y>210</y>
+     <width>441</width>
+     <height>286</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="emptyVisa_5">
+   <property name="geometry">
+    <rect>
+     <x>345</x>
+     <y>549</y>
+     <width>441</width>
+     <height>286</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="logOutBut">
+   <property name="geometry">
+    <rect>
+     <x>178</x>
+     <y>815</y>
+     <width>34</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">backgorund:none;
+border:none;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>logOut_2</zorder>
+  <zorder>pushButton_5</zorder>
+  <zorder>Home</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>Logo</zorder>
+  <zorder>fileImg</zorder>
+  <zorder>pushButton_6</zorder>
+  <zorder>label_username_2</zorder>
+  <zorder>line_2</zorder>
+  <zorder>Card</zorder>
+  <zorder>account_2</zorder>
+  <zorder>settings_2</zorder>
+  <zorder>label_2</zorder>
+  <zorder>line_3</zorder>
+  <zorder>label_3</zorder>
+  <zorder>qpush</zorder>
+  <zorder>pushButton_9</zorder>
+  <zorder>emptyVisa</zorder>
+  <zorder>emptyVisa_2</zorder>
+  <zorder>emptyVisa_3</zorder>
+  <zorder>visaCard</zorder>
+  <zorder>emptyVisa_6</zorder>
+  <zorder>emptyVisa_4</zorder>
+  <zorder>emptyVisa_5</zorder>
+  <zorder>logOutBut</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

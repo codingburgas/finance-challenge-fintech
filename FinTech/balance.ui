@@ -96,7 +96,7 @@ padding-right:50px;
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>370</y>
+     <y>372</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -109,7 +109,7 @@ padding-right:50px;
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>364</y>
+     <y>366</y>
      <width>211</width>
      <height>51</height>
     </rect>
@@ -139,58 +139,11 @@ QPushButton:hover {
     <string>Transaction History</string>
    </property>
   </widget>
-  <widget class="QLabel" name="dollarSign">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>434</y>
-     <width>41</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="payImg">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>428</y>
-     <width>211</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="cursor">
-    <cursorShape>PointingHandCursor</cursorShape>
-   </property>
-   <property name="autoFillBackground">
-    <bool>false</bool>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QPushButton{
-background: transparent;
-border:none;
-border-radius: 8;
-font-size: 16px;
-padding-left:45px;
- font-weight: bold;
-}
-
-QPushButton:hover {
-	border: 1.5px solid #1D1B20;
-}
-</string>
-   </property>
-   <property name="text">
-    <string>Payment Transfer</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="Card">
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>497</y>
+     <y>428</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -203,7 +156,7 @@ QPushButton:hover {
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>492</y>
+     <y>423</y>
      <width>211</width>
      <height>51</height>
     </rect>
@@ -236,8 +189,8 @@ QPushButton:hover {
   <widget class="Line" name="line">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>987</y>
+     <x>12</x>
+     <y>795</y>
      <width>211</width>
      <height>16</height>
     </rect>
@@ -249,8 +202,8 @@ QPushButton:hover {
   <widget class="QLabel" name="account">
    <property name="geometry">
     <rect>
-     <x>26</x>
-     <y>1002</y>
+     <x>18</x>
+     <y>810</y>
      <width>34</width>
      <height>34</height>
     </rect>
@@ -262,8 +215,8 @@ QPushButton:hover {
   <widget class="QLabel" name="logOut">
    <property name="geometry">
     <rect>
-     <x>188</x>
-     <y>1002</y>
+     <x>180</x>
+     <y>810</y>
      <width>34</width>
      <height>34</height>
     </rect>
@@ -278,8 +231,8 @@ QPushButton:hover {
   <widget class="QLabel" name="settings">
    <property name="geometry">
     <rect>
-     <x>36</x>
-     <y>942</y>
+     <x>28</x>
+     <y>750</y>
      <width>41</width>
      <height>34</height>
     </rect>
@@ -291,8 +244,8 @@ QPushButton:hover {
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>34</x>
-     <y>943</y>
+     <x>26</x>
+     <y>751</y>
      <width>121</width>
      <height>31</height>
     </rect>
@@ -2001,8 +1954,8 @@ background: transparent;
   <widget class="QLabel" name="label_username">
    <property name="geometry">
     <rect>
-     <x>64</x>
-     <y>997</y>
+     <x>56</x>
+     <y>805</y>
      <width>141</width>
      <height>41</height>
     </rect>
@@ -2027,15 +1980,23 @@ background: transparent;
     <cursorShape>PointingHandCursor</cursorShape>
    </property>
    <property name="styleSheet">
-    <string notr="true">background: #6750A4;
+    <string notr="true">QPushButton{
+background: #6750A4;
 color: white;
 border: none;
 border-radius: 15;
 font-size: 20px;
-</string>
+}
+
+QPushButton:hover {
+	opacity: 0.5;
+}</string>
    </property>
    <property name="text">
     <string>Make a transaction</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
    </property>
   </widget>
   <widget class="QLabel" name="label_30">
@@ -2057,6 +2018,30 @@ font-size: 35px;</string>
     <string/>
    </property>
   </widget>
+  <widget class="QPushButton" name="logOutBut">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>810</y>
+     <width>34</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">backgorund:none;
+border:none;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
   <zorder>pushButton_4</zorder>
   <zorder>label_8</zorder>
   <zorder>label</zorder>
@@ -2065,9 +2050,7 @@ font-size: 35px;</string>
   <zorder>pushButton</zorder>
   <zorder>pushButton_3</zorder>
   <zorder>fileImg</zorder>
-  <zorder>payImg</zorder>
   <zorder>pushButton_5</zorder>
-  <zorder>dollarSign</zorder>
   <zorder>Card</zorder>
   <zorder>line</zorder>
   <zorder>account</zorder>
@@ -2118,6 +2101,7 @@ font-size: 35px;</string>
   <zorder>pushButton_8</zorder>
   <zorder>pushButton_9</zorder>
   <zorder>label_30</zorder>
+  <zorder>logOutBut</zorder>
  </widget>
  <resources/>
  <connections/>
