@@ -492,10 +492,10 @@
    <widget class="QLabel" name="logInImage">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>70</y>
-      <width>262</width>
-      <height>262</height>
+      <x>10</x>
+      <y>48</y>
+      <width>277</width>
+      <height>315</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -601,7 +601,7 @@
     <property name="styleSheet">
      <string notr="true">font-size: 30px;
 color: white;
-font-family:inter;</string>
+</string>
     </property>
     <property name="text">
      <string>Log In Finethic!</string>
@@ -610,9 +610,9 @@ font-family:inter;</string>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>461</x>
+      <x>459</x>
       <y>260</y>
-      <width>83</width>
+      <width>91</width>
       <height>29</height>
      </rect>
     </property>

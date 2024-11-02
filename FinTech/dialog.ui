@@ -522,9 +522,9 @@ font-family:inter;</string>
   <widget class="QPushButton" name="regButton">
    <property name="geometry">
     <rect>
-     <x>440</x>
+     <x>445</x>
      <y>310</y>
-     <width>83</width>
+     <width>91</width>
      <height>29</height>
     </rect>
    </property>
@@ -590,9 +590,9 @@ QPushButton:checked:hover {
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>375</x>
+     <x>347</x>
      <y>20</y>
-     <width>251</width>
+     <width>301</width>
      <height>41</height>
     </rect>
    </property>
@@ -609,7 +609,7 @@ color:white;
 font-family:inter;</string>
    </property>
    <property name="text">
-    <string>Sign In Finethic!</string>
+    <string>Sign Up In Finethic!</string>
    </property>
   </widget>
   <widget class="Line" name="line">
@@ -804,7 +804,7 @@ color:white;
   <widget class="QPushButton" name="registerButton">
    <property name="geometry">
     <rect>
-     <x>390</x>
+     <x>401</x>
      <y>340</y>
      <width>181</width>
      <height>29</height>
@@ -813,7 +813,6 @@ color:white;
    <property name="font">
     <font>
      <family>inter</family>
-     <pointsize>-1</pointsize>
     </font>
    </property>
    <property name="cursor">
@@ -822,11 +821,7 @@ color:white;
    <property name="styleSheet">
     <string notr="true">background: transparent;
 border: none;
-font-size: 12px;
-color: black;
 color:white;
-color:white;
-
 font-family:inter;</string>
    </property>
    <property name="text">
@@ -870,8 +865,8 @@ color: black;
   <widget class="QPushButton" name="backToLogIn">
    <property name="geometry">
     <rect>
-     <x>390</x>
-     <y>360</y>
+     <x>406</x>
+     <y>363</y>
      <width>181</width>
      <height>29</height>
     </rect>
@@ -892,7 +887,6 @@ color: black;
 border: none;
 font-size: 12px;
 color: white;
-font-family:inter;
 text-decoration: underline;</string>
    </property>
    <property name="text">
@@ -900,6 +894,22 @@ text-decoration: underline;</string>
    </property>
    <property name="checkable">
     <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="Line" name="line_8">
+   <property name="geometry">
+    <rect>
+     <x>357</x>
+     <y>360</y>
+     <width>271</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Orientation::Horizontal</enum>
    </property>
   </widget>
  </widget>
