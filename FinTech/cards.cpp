@@ -60,21 +60,21 @@ Cards::~Cards()
 
 void Cards::on_pushButton_6_clicked()
 {
-    hide();
-    Transactions *transactions = new Transactions(username);
-    transactions->show();
+   // hide();
+    //Transactions *transactions = new Transactions(username);
+    //transactions->show();
 
-    //hide();
-   //Transactions transactions(nullptr);
-   // transactions.setModal(true);
-   //transactions.exec();
+    hide();
+   Transactions transactions(username);
+    transactions.setModal(true);
+   transactions.exec();
 }
 
 
 void Cards::on_pushButton_clicked()
 {
     hide();
-    Balance balance(nullptr);
+    Balance balance(username);
     balance.setModal(true);
     balance.exec();
 }

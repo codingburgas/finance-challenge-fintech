@@ -88,7 +88,7 @@ void Balance::on_pushButton_5_clicked()
     //cards.exec();
 
     hide();
-    Cards cards;
+    Cards cards(nullptr,username);
     cards.setModal(true);
     cards.exec();
 
@@ -121,7 +121,7 @@ void Balance::on_logOutBut_clicked()
 void Balance::on_pushButton_8_clicked()
 {
     hide();
-    Cards cards;
+    Cards cards(nullptr,username);
     cards.setModal(true);
     cards.exec();
 }
@@ -130,7 +130,7 @@ void Balance::on_pushButton_8_clicked()
 void Balance::on_pushButton_6_clicked()
 {
     hide();
-    Cards cards;
+    Cards cards(nullptr, username);
     cards.setModal(true);
     cards.exec();
 }

@@ -7,10 +7,11 @@
 Transactions::Transactions(const QString &username, QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::Transactions)
+    , username(username)
 {
     ui->setupUi(this);
 
-      ui->label_username_t->setText(username);
+      ui->label_username_t->setText("Welcome," + username);
     QPixmap pix("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/image 1.png");
     ui->Logo->setPixmap(pix);
     QPixmap pix1("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/Home.png");
@@ -35,7 +36,7 @@ Transactions::~Transactions()
 void Transactions::on_pushButton_5_clicked()
 {
     hide();
-    Cards cards;
+    Cards cards(nullptr, username);
     cards.setModal(true);
     cards.exec();
 }
