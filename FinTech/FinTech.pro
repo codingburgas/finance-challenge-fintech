@@ -16,6 +16,7 @@ SOURCES += \
     dialog.cpp \
     main.cpp \
     mainwindow.cpp \
+    maketran.cpp \
     transactions.cpp
     balance.cpp \
 
@@ -24,6 +25,7 @@ HEADERS += \
     cards.h \
     dialog.h \
     mainwindow.h \
+    maketran.h \
     transactions.h
     balance.h \
 
@@ -32,6 +34,7 @@ FORMS += \
     cards.ui \
     dialog.ui \
     mainwindow.ui \
+    maketran.ui \
     transactions.ui
 
 TRANSLATIONS += \

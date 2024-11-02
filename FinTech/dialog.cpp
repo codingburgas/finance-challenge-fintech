@@ -46,7 +46,7 @@ void Dialog::on_regButton_clicked()
     QueryInsertData.bindValue(":Password", ui->txt_password->text());
     QueryInsertData.bindValue(":FirstName", ui->txt_Fname->text());
     QueryInsertData.bindValue(":LastName", ui->txt_Lname->text());
-    //QueryInsertData.exec();
+
     if (!QueryInsertData.exec()) {
         qDebug() << "Insert query failed: " << QueryInsertData.lastError().text();
        QSqlDatabase::database().rollback();

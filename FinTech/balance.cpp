@@ -10,18 +10,18 @@
 #include <QSqlDatabase>
 #include "transactions.h"
 #include "cards.h"
+#include "maketran.h"
 
-Balance::Balance(const QString &username, QWidget *parent)  // Constructor with username
+Balance::Balance(const QString &username, QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::Balance)
     , username(username)
 {
     ui->setupUi(this);
 
-    // Set the label to show the username
-   ui->label_username->setText(username);
-   ui->label_b->setText("Welcome, " + username);
-   ui->label_card->setText(username + "'s cards");
+    ui->label_username->setText(username);
+    ui->label_b->setText("Welcome, " + username + "!");
+    ui->label_card->setText(username + "'s cards!");
 
 
     QPixmap pix("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/image 1.png");
@@ -51,7 +51,7 @@ Balance::Balance(const QString &username, QWidget *parent)  // Constructor with 
     ui->settings->setPixmap(pix7);
     QPixmap pix8("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/options.png");
     ui->option->setPixmap(pix8.scaled(361,161));
-    QPixmap pix9("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/visaCard.png");
+    QPixmap pix9("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/visa-card2.png");
     ui->visaCard->setPixmap(pix9.scaled(321,191));
     QPixmap pix10("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/Tv.png");
     ui->Tv->setPixmap(pix10);
@@ -82,11 +82,6 @@ void Balance::on_pushButton_3_clicked()
 
 void Balance::on_pushButton_5_clicked()
 {
-    //hide();
-    //Cards cards;
-    //cards.setModal(true);
-    //cards.exec();
-
     hide();
     Cards cards(nullptr,username);
     cards.setModal(true);
@@ -106,7 +101,8 @@ void Balance::on_pushButton_7_clicked()
 
 void Balance::on_pushButton_9_clicked()
 {
-
+    makeTran *maketran = new makeTran(nullptr, username);
+    maketran->show();
 }
 
 

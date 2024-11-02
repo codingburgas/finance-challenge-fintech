@@ -16,7 +16,8 @@ Cards::Cards(QWidget *parent, const QString &username)
     , username(username)
 {
     ui->setupUi(this);
-    ui->label_username_cards->setText("Welcome " + username);
+    ui->label_username_cards->setText("Welcome, " + username + "!");
+    ui->label_2->setText(username + "'s cards!");
     qDebug() << "Username in Cards:" << username;
     QPixmap pix("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/image 1.png");
     ui->Logo->setPixmap(pix);
@@ -42,7 +43,7 @@ Cards::Cards(QWidget *parent, const QString &username)
     ui->emptyVisa_6->setPixmap(pix13);
     DB_Connection = QSqlDatabase::addDatabase("QSQLITE");
 
-    DB_Connection.setDatabaseName("C:/Users/Nikolay/Documents/finance-challenge-fintech/DBTest.db");
+    DB_Connection.setDatabaseName("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/DBTest.db");
     if(!DB_Connection.open())
     {
         qDebug() << "Not Connected";
@@ -60,14 +61,10 @@ Cards::~Cards()
 
 void Cards::on_pushButton_6_clicked()
 {
-   // hide();
-    //Transactions *transactions = new Transactions(username);
-    //transactions->show();
-
     hide();
-   Transactions transactions(username);
+    Transactions transactions(username);
     transactions.setModal(true);
-   transactions.exec();
+    transactions.exec();
 }
 
 
