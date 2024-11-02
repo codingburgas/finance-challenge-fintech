@@ -3,14 +3,15 @@
   <img src="https://cdn.discordapp.com/attachments/1147668800003637330/1232908425508163685/logo-removebg-preview.png?ex=662b2af2&is=6629d972&hm=4ed00b7bf81c4481a1a64504704179f2d01309ba66d11607038df36c896ae574&" width="400">
 </p>
 <p align="center">
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/https%3A%2F%2Fgithub.com%2Fcodingburgas%2Ffinance-challenge-fintech">
-<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/codingburgas/finance-challenge-fintech">
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/codingburgas/finance-challenge-fintech">
+<img alt="GitHub repo status" src="https://img.shields.io/badge/status-active-green">
+<img alt="GitHub npm version" src="https://img.shields.io/github/commit-activity/total/codingburgas/finance-challenge-fintech">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/codingburgas/finance-challenge-fintech?color=blue&style=flat-square">
+<img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed/codingburgas/finance-challenge-fintech">
 </p>
 <br>
 
 # 💻 About
-### This is our take on the 9th grade collaborative project. This is a bank application where you can track and manage your credit card balance.
+### This is our take on the 10th grade collaborative project. This is a bank application where you can track and manage your credit card balance.
 
 
 
