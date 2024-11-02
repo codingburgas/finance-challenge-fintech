@@ -10,12 +10,14 @@
 #include <QSqlDatabase>
 #include "transactions.h"
 
-Cards::Cards(QWidget *parent)
+Cards::Cards(QWidget *parent, const QString &username)
     : QDialog(parent)
     , ui(new Ui::Cards)
+    , username(username)
 {
     ui->setupUi(this);
-    ui->setupUi(this);
+    ui->label_username_cards->setText("Welcome " + username);
+    qDebug() << "Username in Cards:" << username;
     QPixmap pix("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/image 1.png");
     ui->Logo->setPixmap(pix);
     QPixmap pix1("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/Home.png");
@@ -38,6 +40,17 @@ Cards::Cards(QWidget *parent)
     ui->emptyVisa_5->setPixmap(pix12);
     QPixmap pix13("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/emptyVisa.png");
     ui->emptyVisa_6->setPixmap(pix13);
+    DB_Connection = QSqlDatabase::addDatabase("QSQLITE");
+
+    DB_Connection.setDatabaseName("C:/Users/Nikolay/Documents/finance-challenge-fintech/DBTest.db");
+    if(!DB_Connection.open())
+    {
+        qDebug() << "Not Connected";
+    }
+    else
+    {
+        qDebug() << "connected";
+    }
 }
 
 Cards::~Cards()
@@ -47,15 +60,23 @@ Cards::~Cards()
 
 void Cards::on_pushButton_6_clicked()
 {
+   // hide();
+    //Transactions *transactions = new Transactions(username);
+    //transactions->show();
+
     hide();
-    Transactions *transactions = new Transactions();
-    transactions->show();
+   Transactions transactions(username);
+    transactions.setModal(true);
+   transactions.exec();
 }
 
 
 void Cards::on_pushButton_clicked()
 {
-
+    hide();
+    Balance balance(username);
+    balance.setModal(true);
+    balance.exec();
 }
 
 
@@ -65,4 +86,11 @@ void Cards::on_logOutBut_clicked()
     MainWindow *mainwindow = new MainWindow();
     mainwindow->show();
 }
+void Cards::on_pushButton_5_clicked()
+{
 
+}
+void Balance::on_label_b_linkActivated(const QString &link)
+{
+
+}

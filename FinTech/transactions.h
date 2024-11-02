@@ -3,6 +3,13 @@
 
 #include <QDialog>
 #include "balance.h"
+#include <QDialog>
+#include <QMainWindow>
+#include <qtSql>
+#include <QtDebug>
+#include <QFileInfo>
+#include <QSqlDatabase>
+#include <QString>
 
 namespace Ui {
 class Transactions;
@@ -13,7 +20,7 @@ class Transactions : public QDialog
     Q_OBJECT
 
 public:
-    explicit Transactions(QWidget *parent = nullptr);
+    explicit Transactions(const QString &username, QWidget *parent = nullptr);
     ~Transactions();
 
 private slots:
@@ -25,6 +32,7 @@ private slots:
 
 private:
     Ui::Transactions *ui;
+      QString username;
 };
 
 #endif // TRANSACTIONS_H

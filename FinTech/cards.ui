@@ -223,7 +223,7 @@ QPushButton:hover {
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QLabel" name="label_username_2">
+  <widget class="QLabel" name="label_username_cards">
    <property name="geometry">
     <rect>
      <x>70</x>
@@ -545,7 +545,7 @@ border:none;
   <zorder>Logo</zorder>
   <zorder>fileImg</zorder>
   <zorder>pushButton_6</zorder>
-  <zorder>label_username_2</zorder>
+  <zorder>label_username_cards</zorder>
   <zorder>line_2</zorder>
   <zorder>Card</zorder>
   <zorder>account_2</zorder>
