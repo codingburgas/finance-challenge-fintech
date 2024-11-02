@@ -4,7 +4,6 @@
 </p>
 <p align="center">
 <img alt="GitHub repo status" src="https://img.shields.io/badge/status-active-green">
-<img alt="GitHub npm version" src="https://img.shields.io/github/commit-activity/total/codingburgas/finance-challenge-fintech">
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/codingburgas/finance-challenge-fintech?color=blue&style=flat-square">
 <img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed/codingburgas/finance-challenge-fintech">
 </p>
