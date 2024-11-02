@@ -108,3 +108,21 @@ void Balance::on_logOutBut_clicked()
     mainwindow->show();
 }
 
+
+void Balance::on_pushButton_8_clicked()
+{
+    hide();
+    Cards cards;
+    cards.setModal(true);
+    cards.exec();
+}
+
+
+void Balance::on_pushButton_6_clicked()
+{
+    hide();
+    Cards cards;
+    cards.setModal(true);
+    cards.exec();
+}
+

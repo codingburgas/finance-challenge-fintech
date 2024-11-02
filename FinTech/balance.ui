@@ -33,7 +33,7 @@
    <property name="geometry">
     <rect>
      <x>0</x>
-     <y>20</y>
+     <y>0</y>
      <width>241</width>
      <height>251</height>
     </rect>
@@ -63,11 +63,12 @@
    <property name="styleSheet">
     <string notr="true">QPushButton{
 background: transparent;
-border: 1.5px solid #1D1B20;
+border: 1.5px solid white;
 border-radius: 8;
 font-size: 16px;
 padding-right:50px;
  font-weight: bold;
+color:white;
 }
 
 </string>
@@ -128,10 +129,11 @@ border-radius: 8;
 font-size: 16px;
 padding-left:50px;
  font-weight: bold;
+color:white;
 }
 
 QPushButton:hover {
-	border: 1.5px solid #1D1B20;
+	border: 1.5px solid white;
 }
 </string>
    </property>
@@ -175,10 +177,11 @@ border-radius: 8;
 font-size: 16px;
 font-weight: bold;
 padding-right: 50px;
+color:white;
 }
 
 QPushButton:hover {
-	border: 1.5px solid #1D1B20;
+	border: 1.5px solid white;
 }
 </string>
    </property>
@@ -234,7 +237,7 @@ QPushButton:hover {
      <x>28</x>
      <y>750</y>
      <width>41</width>
-     <height>34</height>
+     <height>37</height>
     </rect>
    </property>
    <property name="text">
@@ -258,7 +261,9 @@ QPushButton:hover {
 font-family: inter;
 background: transparent;
 border:none;
-text-align: right;</string>
+text-align: right;
+color:white;
+</string>
    </property>
    <property name="text">
     <string>Settings</string>
@@ -305,10 +310,10 @@ font-family:inter;
   <widget class="QLabel" name="option">
    <property name="geometry">
     <rect>
-     <x>1175</x>
+     <x>1174</x>
      <y>0</y>
-     <width>361</width>
-     <height>161</height>
+     <width>371</width>
+     <height>151</height>
     </rect>
    </property>
    <property name="text">
@@ -1961,7 +1966,9 @@ background: transparent;
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font-size:18px;</string>
+    <string notr="true">font-size:18px;
+color:white;
+</string>
    </property>
    <property name="text">
     <string>Example Name</string>

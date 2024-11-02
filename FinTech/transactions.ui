@@ -65,10 +65,11 @@ border-radius: 8;
 font-size: 16px;
 font-weight: bold;
 padding-right: 50px;
+color:white;
 }
 
 QPushButton:hover {
-	border: 1.5px solid #1D1B20;
+	border: 1.5px solid white;
 }
 </string>
    </property>
@@ -142,11 +143,12 @@ background: transparent;
 border-radius: 8;
 font-size: 16px;
 padding-right:50px;
+color:white;
  font-weight: bold;
 }
 
 QPushButton:hover {
-	border: 1.5px solid #1D1B20;
+	border: 1.5px solid white;
 }
 </string>
    </property>
@@ -217,11 +219,12 @@ QPushButton:hover {
    <property name="styleSheet">
     <string notr="true">QPushButton{
 background: transparent;
-border:1.5px solid #1D1B20;
+border:1.5px solid white;
 border-radius: 8;
 font-size: 16px;
 padding-left:50px;
  font-weight: bold;
+color:white;
 }
 
 </string>
@@ -247,7 +250,9 @@ padding-left:50px;
 font-family: inter;
 background: transparent;
 border:none;
-text-align: right;</string>
+text-align: right;
+color:white;
+</string>
    </property>
    <property name="text">
     <string>Settings</string>
@@ -276,7 +281,9 @@ text-align: right;</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font-size:18px;</string>
+    <string notr="true">font-size:18px;
+color:white;
+</string>
    </property>
    <property name="text">
     <string>Example Name</string>

@@ -37,6 +37,10 @@ private slots:
 
     void on_logOutBut_clicked();
 
+    void on_pushButton_8_clicked();
+
+    void on_pushButton_6_clicked();
+
 private:
     Ui::Balance *ui;
     QSqlDatabase DB_Connection;
