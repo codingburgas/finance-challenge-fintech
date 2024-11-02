@@ -3,9 +3,9 @@
   <img src="https://cdn.discordapp.com/attachments/1147668800003637330/1232908425508163685/logo-removebg-preview.png?ex=662b2af2&is=6629d972&hm=4ed00b7bf81c4481a1a64504704179f2d01309ba66d11607038df36c896ae574&" width="400">
 </p>
 <p align="center">
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/codingburgas/FinTech">
-<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/codingburgas/FinTech">
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/codingburgas/FinTech">
+<img alt="GitHub last commit" src="https://github.com/codingburgas/finance-challenge-fintech">
+<img alt="GitHub repo size" src="https://github.com/codingburgas/finance-challenge-fintech">
+<img alt="GitHub Repo stars" src="https://github.com/codingburgas/finance-challenge-fintech">
 </p>
 <br>
 
@@ -69,7 +69,7 @@
 | :---:   | :---: | :---: |
 | <h3><a href = "https://github.com/SSStefanov22">Simeon Stefanov</a></h3> | Scrum  | 10th grade |
 | <h3><a href = "https://github.com/NGKulov22">Nikolai Kulov</a></h3> | Backend developer | 10th grade |
-| <h3><a href = "https://github.com/KDDimitrov22">Kristian Dimitrov</a></h3> | Backend developer | 10th grade |
+| <h3><a href = "https://github.com/KDDimitrov22">Kristian Dimitrov</a></h3> | Frontend developer | 10th grade |
 | <h3><a href = "https://github.com/PKHristova22">Perla Hristova</a></h3> |  Designer  | 10th grade |
 
 
