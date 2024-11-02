@@ -41,8 +41,8 @@ color:white;
   <widget class="QLabel" name="logOut_2">
    <property name="geometry">
     <rect>
-     <x>178</x>
-     <y>815</y>
+     <x>180</x>
+     <y>770</y>
      <width>34</width>
      <height>34</height>
     </rect>
@@ -410,7 +410,7 @@ background: transparent;
    <property name="geometry">
     <rect>
      <x>345</x>
-     <y>549</y>
+     <y>510</y>
      <width>441</width>
      <height>251</height>
     </rect>
@@ -452,7 +452,7 @@ background: transparent;
    <property name="geometry">
     <rect>
      <x>345</x>
-     <y>210</y>
+     <y>176</y>
      <width>441</width>
      <height>286</height>
     </rect>
@@ -467,8 +467,8 @@ background: transparent;
   <widget class="QLabel" name="emptyVisa_6">
    <property name="geometry">
     <rect>
-     <x>1012</x>
-     <y>549</y>
+     <x>350</x>
+     <y>480</y>
      <width>441</width>
      <height>286</height>
     </rect>
@@ -483,8 +483,8 @@ background: transparent;
   <widget class="QLabel" name="emptyVisa_4">
    <property name="geometry">
     <rect>
-     <x>1012</x>
-     <y>210</y>
+     <x>1020</x>
+     <y>176</y>
      <width>441</width>
      <height>286</height>
     </rect>
@@ -499,8 +499,8 @@ background: transparent;
   <widget class="QLabel" name="emptyVisa_5">
    <property name="geometry">
     <rect>
-     <x>345</x>
-     <y>549</y>
+     <x>1020</x>
+     <y>480</y>
      <width>441</width>
      <height>286</height>
     </rect>
