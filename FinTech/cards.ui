@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1536</width>
-    <height>864</height>
+    <height>830</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,8 +16,8 @@
   <widget class="QPushButton" name="pushButton_4">
    <property name="geometry">
     <rect>
-     <x>24</x>
-     <y>756</y>
+     <x>50</x>
+     <y>720</y>
      <width>121</width>
      <height>31</height>
     </rect>
@@ -145,7 +145,7 @@ QPushButton:hover {
      <x>0</x>
      <y>0</y>
      <width>251</width>
-     <height>864</height>
+     <height>911</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -226,8 +226,8 @@ QPushButton:hover {
   <widget class="QLabel" name="label_username_2">
    <property name="geometry">
     <rect>
-     <x>54</x>
-     <y>810</y>
+     <x>70</x>
+     <y>764</y>
      <width>141</width>
      <height>41</height>
     </rect>
@@ -244,8 +244,8 @@ color:white;
   <widget class="Line" name="line_2">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>800</y>
+     <x>26</x>
+     <y>754</y>
      <width>211</width>
      <height>16</height>
     </rect>
@@ -270,8 +270,8 @@ color:white;
   <widget class="QLabel" name="account_2">
    <property name="geometry">
     <rect>
-     <x>16</x>
-     <y>815</y>
+     <x>32</x>
+     <y>769</y>
      <width>34</width>
      <height>34</height>
     </rect>
@@ -283,8 +283,8 @@ color:white;
   <widget class="QLabel" name="settings_2">
    <property name="geometry">
     <rect>
-     <x>23</x>
-     <y>755</y>
+     <x>50</x>
+     <y>720</y>
      <width>41</width>
      <height>34</height>
     </rect>
@@ -515,8 +515,8 @@ background: transparent;
   <widget class="QPushButton" name="logOutBut">
    <property name="geometry">
     <rect>
-     <x>178</x>
-     <y>815</y>
+     <x>194</x>
+     <y>769</y>
      <width>34</width>
      <height>34</height>
     </rect>

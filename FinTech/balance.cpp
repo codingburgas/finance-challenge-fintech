@@ -51,6 +51,12 @@ Balance::Balance(const QString &username, QWidget *parent)  // Constructor with 
     ui->option->setPixmap(pix8.scaled(361,161));
     QPixmap pix9("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/visaCard.png");
     ui->visaCard->setPixmap(pix9.scaled(321,191));
+    QPixmap pix10("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/Tv.png");
+    ui->Tv->setPixmap(pix10);
+    QPixmap pix11("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/cart.png");
+    ui->cart->setPixmap(pix11);
+    QPixmap pix12("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/Compass.png");
+    ui->Compas->setPixmap(pix12);
 }
 
 Balance::~Balance()

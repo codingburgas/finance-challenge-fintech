@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1536</width>
-    <height>864</height>
+    <height>830</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -192,8 +192,8 @@ QPushButton:hover {
   <widget class="Line" name="line">
    <property name="geometry">
     <rect>
-     <x>12</x>
-     <y>795</y>
+     <x>22</x>
+     <y>765</y>
      <width>211</width>
      <height>16</height>
     </rect>
@@ -205,8 +205,8 @@ QPushButton:hover {
   <widget class="QLabel" name="account">
    <property name="geometry">
     <rect>
-     <x>18</x>
-     <y>810</y>
+     <x>28</x>
+     <y>780</y>
      <width>34</width>
      <height>34</height>
     </rect>
@@ -218,8 +218,8 @@ QPushButton:hover {
   <widget class="QLabel" name="logOut">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>810</y>
+     <x>190</x>
+     <y>780</y>
      <width>34</width>
      <height>34</height>
     </rect>
@@ -234,8 +234,8 @@ QPushButton:hover {
   <widget class="QLabel" name="settings">
    <property name="geometry">
     <rect>
-     <x>28</x>
-     <y>750</y>
+     <x>38</x>
+     <y>720</y>
      <width>41</width>
      <height>37</height>
     </rect>
@@ -247,8 +247,8 @@ QPushButton:hover {
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>26</x>
-     <y>751</y>
+     <x>36</x>
+     <y>721</y>
      <width>121</width>
      <height>31</height>
     </rect>
@@ -1697,7 +1697,7 @@ font-size: 35px;</string>
    <property name="geometry">
     <rect>
      <x>578</x>
-     <y>639</y>
+     <y>632</y>
      <width>90</width>
      <height>31</height>
     </rect>
@@ -1714,7 +1714,7 @@ font-family: inter;</string>
    <property name="geometry">
     <rect>
      <x>944</x>
-     <y>638</y>
+     <y>631</y>
      <width>111</width>
      <height>31</height>
     </rect>
@@ -1731,7 +1731,7 @@ font-family: inter;</string>
    <property name="geometry">
     <rect>
      <x>747</x>
-     <y>639</y>
+     <y>632</y>
      <width>151</width>
      <height>31</height>
     </rect>
@@ -1748,7 +1748,7 @@ font-family: inter;</string>
    <property name="geometry">
     <rect>
      <x>360</x>
-     <y>639</y>
+     <y>632</y>
      <width>141</width>
      <height>31</height>
     </rect>
@@ -1784,7 +1784,7 @@ font-size: 35px;</string>
    <property name="geometry">
     <rect>
      <x>578</x>
-     <y>723</y>
+     <y>710</y>
      <width>90</width>
      <height>31</height>
     </rect>
@@ -1801,7 +1801,7 @@ font-family: inter;</string>
    <property name="geometry">
     <rect>
      <x>944</x>
-     <y>722</y>
+     <y>709</y>
      <width>111</width>
      <height>31</height>
     </rect>
@@ -1818,7 +1818,7 @@ font-family: inter;</string>
    <property name="geometry">
     <rect>
      <x>748</x>
-     <y>723</y>
+     <y>710</y>
      <width>151</width>
      <height>31</height>
     </rect>
@@ -1835,7 +1835,7 @@ font-family: inter;</string>
    <property name="geometry">
     <rect>
      <x>360</x>
-     <y>723</y>
+     <y>710</y>
      <width>141</width>
      <height>31</height>
     </rect>
@@ -1871,7 +1871,7 @@ font-size: 35px;</string>
    <property name="geometry">
     <rect>
      <x>580</x>
-     <y>805</y>
+     <y>787</y>
      <width>90</width>
      <height>31</height>
     </rect>
@@ -1888,7 +1888,7 @@ font-family: inter;</string>
    <property name="geometry">
     <rect>
      <x>944</x>
-     <y>804</y>
+     <y>786</y>
      <width>111</width>
      <height>31</height>
     </rect>
@@ -1905,7 +1905,7 @@ font-family: inter;</string>
    <property name="geometry">
     <rect>
      <x>751</x>
-     <y>805</y>
+     <y>787</y>
      <width>151</width>
      <height>31</height>
     </rect>
@@ -1922,7 +1922,7 @@ font-family: inter;</string>
    <property name="geometry">
     <rect>
      <x>360</x>
-     <y>805</y>
+     <y>787</y>
      <width>141</width>
      <height>31</height>
     </rect>
@@ -1959,8 +1959,8 @@ background: transparent;
   <widget class="QLabel" name="label_username">
    <property name="geometry">
     <rect>
-     <x>56</x>
-     <y>805</y>
+     <x>66</x>
+     <y>775</y>
      <width>141</width>
      <height>41</height>
     </rect>
@@ -2028,8 +2028,8 @@ font-size: 35px;</string>
   <widget class="QPushButton" name="logOutBut">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>810</y>
+     <x>190</x>
+     <y>780</y>
      <width>34</width>
      <height>34</height>
     </rect>
@@ -2047,6 +2047,251 @@ border:none;
    </property>
    <property name="checkable">
     <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>1190</x>
+     <y>650</y>
+     <width>331</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid #79A9C8;
+border-radius: 8;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>1190</x>
+     <y>710</y>
+     <width>331</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid #C95A5A;
+border-radius: 8;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>1190</x>
+     <y>770</y>
+     <width>331</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid #EDB949;
+border-radius: 8;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Tv">
+   <property name="geometry">
+    <rect>
+     <x>1208</x>
+     <y>657</y>
+     <width>38</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cart">
+   <property name="geometry">
+    <rect>
+     <x>1210</x>
+     <y>718</y>
+     <width>38</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Compas">
+   <property name="geometry">
+    <rect>
+     <x>1210</x>
+     <y>778</y>
+     <width>38</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_38">
+   <property name="geometry">
+    <rect>
+     <x>1250</x>
+     <y>672</y>
+     <width>261</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid #79A9C8;
+border-radius: 8;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_39">
+   <property name="geometry">
+    <rect>
+     <x>1250</x>
+     <y>650</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #79A9C8;
+font-size: 16px;</string>
+   </property>
+   <property name="text">
+    <string>Subscribtions</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_40">
+   <property name="geometry">
+    <rect>
+     <x>1489</x>
+     <y>650</y>
+     <width>16</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #79A9C8;
+font-size:16px;</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_41">
+   <property name="geometry">
+    <rect>
+     <x>1250</x>
+     <y>732</y>
+     <width>261</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid #C95A5A;
+border-radius: 8;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_42">
+   <property name="geometry">
+    <rect>
+     <x>1250</x>
+     <y>710</y>
+     <width>121</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #C95A5A;
+font-size: 16px;
+</string>
+   </property>
+   <property name="text">
+    <string>Food and Drinks</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_43">
+   <property name="geometry">
+    <rect>
+     <x>1489</x>
+     <y>710</y>
+     <width>16</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #C95A5A;
+font-size:16px;</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_44">
+   <property name="geometry">
+    <rect>
+     <x>1250</x>
+     <y>790</y>
+     <width>261</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid #EDB949;
+border-radius: 8;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_45">
+   <property name="geometry">
+    <rect>
+     <x>1250</x>
+     <y>770</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #EDB949;
+font-size: 16px;
+</string>
+   </property>
+   <property name="text">
+    <string>Travel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_46">
+   <property name="geometry">
+    <rect>
+     <x>1489</x>
+     <y>770</y>
+     <width>16</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #EDB949;
+font-size:16px;</string>
+   </property>
+   <property name="text">
+    <string>0</string>
    </property>
   </widget>
   <zorder>pushButton_4</zorder>
@@ -2109,6 +2354,21 @@ border:none;
   <zorder>pushButton_9</zorder>
   <zorder>label_30</zorder>
   <zorder>logOutBut</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>Tv</zorder>
+  <zorder>cart</zorder>
+  <zorder>Compas</zorder>
+  <zorder>label_38</zorder>
+  <zorder>label_39</zorder>
+  <zorder>label_40</zorder>
+  <zorder>label_41</zorder>
+  <zorder>label_42</zorder>
+  <zorder>label_43</zorder>
+  <zorder>label_44</zorder>
+  <zorder>label_45</zorder>
+  <zorder>label_46</zorder>
  </widget>
  <resources/>
  <connections/>
