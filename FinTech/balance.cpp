@@ -14,13 +14,15 @@
 Balance::Balance(const QString &username, QWidget *parent)  // Constructor with username
     : QDialog(parent)
     , ui(new Ui::Balance)
+    , username(username)
 {
     ui->setupUi(this);
 
     // Set the label to show the username
    ui->label_username->setText(username);
-    ui->label_b->setText("Welcome, " + username);
+   ui->label_b->setText("Welcome, " + username);
    ui->label_card->setText(username + "'s cards");
+
 
     QPixmap pix("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/image 1.png");
     ui->Logo->setPixmap(pix);
@@ -66,36 +68,37 @@ Balance::~Balance()
 
 
 
-
-void Balance::on_label_b_linkActivated(const QString &link)
-{
-
-}
-
-
-
 void Balance::on_pushButton_3_clicked()
 {
     hide();
-    Transactions transactions;
+    Transactions transactions(username);
     transactions.setModal(true);
     transactions.exec();
 }
 
 
+
+
+
 void Balance::on_pushButton_5_clicked()
 {
+    //hide();
+    //Cards cards;
+    //cards.setModal(true);
+    //cards.exec();
+
     hide();
     Cards cards;
     cards.setModal(true);
     cards.exec();
+
 }
 
 
 void Balance::on_pushButton_7_clicked()
 {
     hide();
-    Transactions transactions;
+    Transactions transactions(username);
     transactions.setModal(true);
     transactions.exec();
 }

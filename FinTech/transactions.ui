@@ -271,7 +271,7 @@ color:white;
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="label_username_2">
+  <widget class="QLabel" name="label_username_t">
    <property name="geometry">
     <rect>
      <x>58</x>
@@ -987,7 +987,7 @@ border:none;
   <zorder>pushButton_3</zorder>
   <zorder>pushButton_4</zorder>
   <zorder>account_2</zorder>
-  <zorder>label_username_2</zorder>
+  <zorder>label_username_t</zorder>
   <zorder>logOut_2</zorder>
   <zorder>line_2</zorder>
   <zorder>settings_2</zorder>

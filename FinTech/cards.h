@@ -2,6 +2,12 @@
 #define CARDS_H
 
 #include <QDialog>
+#include <QMainWindow>
+#include <qtSql>
+#include <QtDebug>
+#include <QFileInfo>
+#include <QSqlDatabase>
+#include <QString>
 
 namespace Ui {
 class Cards;
@@ -12,7 +18,7 @@ class Cards : public QDialog
     Q_OBJECT
 
 public:
-    explicit Cards(QWidget *parent = nullptr);
+    explicit Cards(QWidget *parent = nullptr, const QString &username="");
     ~Cards();
 
 private slots:
@@ -22,8 +28,12 @@ private slots:
 
     void on_logOutBut_clicked();
 
+    void on_pushButton_5_clicked();
+
 private:
     Ui::Cards *ui;
+    QSqlDatabase DB_Connection;
+    QString username;
 };
 
 #endif // CARDS_H

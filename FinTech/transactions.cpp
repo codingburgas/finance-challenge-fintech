@@ -4,11 +4,13 @@
 #include "mainwindow.h"
 
 
-Transactions::Transactions(QWidget *parent)
+Transactions::Transactions(const QString &username, QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::Transactions)
 {
     ui->setupUi(this);
+
+      ui->label_username_t->setText(username);
     QPixmap pix("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/image 1.png");
     ui->Logo->setPixmap(pix);
     QPixmap pix1("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/Home.png");
@@ -42,6 +44,10 @@ void Transactions::on_pushButton_5_clicked()
 void Transactions::on_pushButton_clicked()
 {
 
+    hide();
+    Balance balance(username);
+    balance.setModal(true);
+    balance.exec();
 }
 
 
