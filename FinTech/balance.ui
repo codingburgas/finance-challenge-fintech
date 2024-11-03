@@ -113,7 +113,7 @@ color:white;
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>366</y>
+     <y>364</y>
      <width>211</width>
      <height>51</height>
     </rect>
@@ -148,7 +148,7 @@ QPushButton:hover {
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>428</y>
+     <y>439</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -161,7 +161,7 @@ QPushButton:hover {
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>423</y>
+     <y>434</y>
      <width>211</width>
      <height>51</height>
     </rect>
@@ -195,8 +195,8 @@ QPushButton:hover {
   <widget class="Line" name="line">
    <property name="geometry">
     <rect>
-     <x>22</x>
-     <y>765</y>
+     <x>21</x>
+     <y>754</y>
      <width>211</width>
      <height>16</height>
     </rect>
@@ -208,8 +208,8 @@ QPushButton:hover {
   <widget class="QLabel" name="account">
    <property name="geometry">
     <rect>
-     <x>28</x>
-     <y>780</y>
+     <x>32</x>
+     <y>769</y>
      <width>34</width>
      <height>34</height>
     </rect>
@@ -221,8 +221,8 @@ QPushButton:hover {
   <widget class="QLabel" name="logOut">
    <property name="geometry">
     <rect>
-     <x>190</x>
-     <y>780</y>
+     <x>180</x>
+     <y>770</y>
      <width>34</width>
      <height>34</height>
     </rect>
@@ -237,7 +237,7 @@ QPushButton:hover {
   <widget class="QLabel" name="settings">
    <property name="geometry">
     <rect>
-     <x>38</x>
+     <x>30</x>
      <y>720</y>
      <width>41</width>
      <height>37</height>
@@ -250,8 +250,8 @@ QPushButton:hover {
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>36</x>
-     <y>721</y>
+     <x>30</x>
+     <y>720</y>
      <width>121</width>
      <height>31</height>
     </rect>
@@ -1612,7 +1612,7 @@ font-size: 35px;</string>
   <widget class="QLabel" name="label_amount1">
    <property name="geometry">
     <rect>
-     <x>576</x>
+     <x>581</x>
      <y>555</y>
      <width>90</width>
      <height>31</height>
@@ -1629,9 +1629,9 @@ font-family: inter;</string>
   <widget class="QLabel" name="label_date1">
    <property name="geometry">
     <rect>
-     <x>944</x>
+     <x>935</x>
      <y>554</y>
-     <width>111</width>
+     <width>131</width>
      <height>31</height>
     </rect>
    </property>
@@ -1646,7 +1646,7 @@ font-family: inter;</string>
   <widget class="QLabel" name="label_category1">
    <property name="geometry">
     <rect>
-     <x>746</x>
+     <x>765</x>
      <y>555</y>
      <width>151</width>
      <height>31</height>
@@ -1663,7 +1663,7 @@ font-family: inter;</string>
   <widget class="QLabel" name="label_transaction1">
    <property name="geometry">
     <rect>
-     <x>360</x>
+     <x>385</x>
      <y>555</y>
      <width>141</width>
      <height>31</height>
@@ -1699,7 +1699,7 @@ font-size: 35px;</string>
   <widget class="QLabel" name="label_amount2">
    <property name="geometry">
     <rect>
-     <x>578</x>
+     <x>581</x>
      <y>632</y>
      <width>90</width>
      <height>31</height>
@@ -1716,9 +1716,9 @@ font-family: inter;</string>
   <widget class="QLabel" name="label_date2">
    <property name="geometry">
     <rect>
-     <x>944</x>
+     <x>935</x>
      <y>631</y>
-     <width>111</width>
+     <width>131</width>
      <height>31</height>
     </rect>
    </property>
@@ -1733,7 +1733,7 @@ font-family: inter;</string>
   <widget class="QLabel" name="label_category2">
    <property name="geometry">
     <rect>
-     <x>747</x>
+     <x>765</x>
      <y>632</y>
      <width>151</width>
      <height>31</height>
@@ -1750,7 +1750,7 @@ font-family: inter;</string>
   <widget class="QLabel" name="label_transaction2">
    <property name="geometry">
     <rect>
-     <x>360</x>
+     <x>385</x>
      <y>632</y>
      <width>141</width>
      <height>31</height>
@@ -1786,7 +1786,7 @@ font-size: 35px;</string>
   <widget class="QLabel" name="label_amount3">
    <property name="geometry">
     <rect>
-     <x>578</x>
+     <x>581</x>
      <y>710</y>
      <width>90</width>
      <height>31</height>
@@ -1803,9 +1803,9 @@ font-family: inter;</string>
   <widget class="QLabel" name="label_date3">
    <property name="geometry">
     <rect>
-     <x>944</x>
+     <x>935</x>
      <y>709</y>
-     <width>111</width>
+     <width>131</width>
      <height>31</height>
     </rect>
    </property>
@@ -1820,7 +1820,7 @@ font-family: inter;</string>
   <widget class="QLabel" name="label_category3">
    <property name="geometry">
     <rect>
-     <x>748</x>
+     <x>765</x>
      <y>710</y>
      <width>151</width>
      <height>31</height>
@@ -1837,7 +1837,7 @@ font-family: inter;</string>
   <widget class="QLabel" name="label_transaction3">
    <property name="geometry">
     <rect>
-     <x>360</x>
+     <x>385</x>
      <y>710</y>
      <width>141</width>
      <height>31</height>
@@ -1873,7 +1873,7 @@ font-size: 35px;</string>
   <widget class="QLabel" name="label_amount4">
    <property name="geometry">
     <rect>
-     <x>580</x>
+     <x>581</x>
      <y>787</y>
      <width>90</width>
      <height>31</height>
@@ -1890,9 +1890,9 @@ font-family: inter;</string>
   <widget class="QLabel" name="label_date4">
    <property name="geometry">
     <rect>
-     <x>944</x>
+     <x>935</x>
      <y>786</y>
-     <width>111</width>
+     <width>131</width>
      <height>31</height>
     </rect>
    </property>
@@ -1907,7 +1907,7 @@ font-family: inter;</string>
   <widget class="QLabel" name="label_category4">
    <property name="geometry">
     <rect>
-     <x>751</x>
+     <x>765</x>
      <y>787</y>
      <width>151</width>
      <height>31</height>
@@ -1924,7 +1924,7 @@ font-family: inter;</string>
   <widget class="QLabel" name="label_transaction4">
    <property name="geometry">
     <rect>
-     <x>360</x>
+     <x>385</x>
      <y>787</y>
      <width>141</width>
      <height>31</height>
@@ -1963,7 +1963,7 @@ background: transparent;
    <property name="geometry">
     <rect>
      <x>66</x>
-     <y>775</y>
+     <y>764</y>
      <width>141</width>
      <height>41</height>
     </rect>
@@ -2012,8 +2012,8 @@ QPushButton:hover {
   <widget class="QPushButton" name="logOutBut">
    <property name="geometry">
     <rect>
-     <x>190</x>
-     <y>780</y>
+     <x>180</x>
+     <y>770</y>
      <width>34</width>
      <height>34</height>
     </rect>

@@ -224,8 +224,8 @@ color:white;
   <widget class="QPushButton" name="pushButton_4">
    <property name="geometry">
     <rect>
-     <x>24</x>
-     <y>711</y>
+     <x>20</x>
+     <y>720</y>
      <width>121</width>
      <height>31</height>
     </rect>
@@ -280,8 +280,8 @@ color:white;
   <widget class="QLabel" name="logOut_2">
    <property name="geometry">
     <rect>
-     <x>178</x>
-     <y>815</y>
+     <x>180</x>
+     <y>770</y>
      <width>34</width>
      <height>34</height>
     </rect>
@@ -309,8 +309,8 @@ color:white;
   <widget class="QLabel" name="settings_2">
    <property name="geometry">
     <rect>
-     <x>27</x>
-     <y>710</y>
+     <x>23</x>
+     <y>719</y>
      <width>41</width>
      <height>34</height>
     </rect>
@@ -322,7 +322,7 @@ color:white;
   <widget class="QLabel" name="label_17">
    <property name="geometry">
     <rect>
-     <x>1330</x>
+     <x>1308</x>
      <y>152</y>
      <width>91</width>
      <height>41</height>
@@ -356,7 +356,7 @@ font-family: inter;</string>
   <widget class="QLabel" name="label_15">
    <property name="geometry">
     <rect>
-     <x>706</x>
+     <x>676</x>
      <y>143</y>
      <width>141</width>
      <height>41</height>
@@ -373,7 +373,7 @@ font-family: inter;</string>
   <widget class="QLabel" name="label_16">
    <property name="geometry">
     <rect>
-     <x>1025</x>
+     <x>953</x>
      <y>141</y>
      <width>161</width>
      <height>51</height>
@@ -491,9 +491,9 @@ border:none;</string>
   <widget class="QScrollArea" name="scrollArea">
    <property name="geometry">
     <rect>
-     <x>320</x>
+     <x>280</x>
      <y>240</y>
-     <width>1131</width>
+     <width>1231</width>
      <height>591</height>
     </rect>
    </property>
@@ -505,7 +505,7 @@ border:none;</string>
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>1129</width>
+      <width>1229</width>
       <height>589</height>
      </rect>
     </property>
@@ -582,6 +582,85 @@ QPushButton:hover {
    </property>
    <property name="checkable">
     <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Card_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>439</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fileImg_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>372</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Home_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>300</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Logo_2">
+   <property name="geometry">
+    <rect>
+     <x>-13</x>
+     <y>0</y>
+     <width>251</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">object-fit: cover;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>770</y>
+     <width>34</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: none;
+border: none;
+</string>
+   </property>
+   <property name="text">
+    <string/>
    </property>
   </widget>
  </widget>

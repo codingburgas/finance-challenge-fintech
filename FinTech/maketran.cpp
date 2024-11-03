@@ -24,7 +24,7 @@ makeTran::makeTran(QWidget *parent, const QString &username, int userId)
 
     // Set up database connection
     DB_Connection = QSqlDatabase::addDatabase("QSQLITE");
-    DB_Connection.setDatabaseName("C:/Users/Nikolay/Documents/finance-challenge-fintech/DBTest.db");
+    DB_Connection.setDatabaseName("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/DBTest.db");
 
     if (!DB_Connection.open()) {
         qDebug() << "Not Connected";
