@@ -49,13 +49,12 @@
 <a href="https://www.microsoft.com/en/microsoft-teams/group-chat-software"><img src="https://img.icons8.com/fluency/48/microsoft-teams-2019.png" alt = "MS Teams logo" width=70px /></a>
 <a href="https://www.microsoft.com/en-ww/microsoft-365/word"><img src="https://img.icons8.com/color/48/microsoft-word-2019--v2.png" alt="MS Word logo" width=70px /></a>
 <a href="https://www.microsoft.com/en-ww/microsoft-365/powerpoint"><img src="https://img.icons8.com/color/344/ms-powerpoint.png" alt="MS PowerPoint logo" width=70px /></a>
-  <a href="https://www.microsoft.com/en-ww/microsoft-365/excel"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/1101px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png" alt="MS Excel logo" width=70px /></a>
 </p>
 
 # 🌟Presenting and Team Documentation
 
-- [Documentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/ssstefanov22_codingburgas_bg/EXmy5Gj04mRFv_5HBxgxlVUB9WZMxuZNsP1tfzTf3RI10Q?e=vBQxOb)
-- [Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/ssstefanov22_codingburgas_bg/EXmy5Gj04mRFv_5HBxgxlVUB9WZMxuZNsP1tfzTf3RI10Q?e=vBQxOb)
+- [Documentation](https://codingburgas-my.sharepoint.com/:w:/g/personal/ssstefanov22_codingburgas_bg/EfsDtkfQzclJlVf-ufW7MGUB0n2cC7w0lEVMg-cGyIp3Hw?e=qrHpRn)
+- [Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/ssstefanov22_codingburgas_bg/EcFumZNO0hdBiQNtpuqCA1YBmjItYecIR7tLo2XgejG0FQ?e=UYdiG8)
 
 <br>
 
