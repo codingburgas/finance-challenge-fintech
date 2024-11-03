@@ -1,8 +1,5 @@
 <h1 align="center">✏Team FinTech</h1>
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/1147668800003637330/1232908425508163685/logo-removebg-preview.png?ex=662b2af2&is=6629d972&hm=4ed00b7bf81c4481a1a64504704179f2d01309ba66d11607038df36c896ae574&" width="400">
-</p>
-<p align="center">
 <img alt="GitHub repo status" src="https://img.shields.io/badge/status-active-green">
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/codingburgas/finance-challenge-fintech?color=blue&style=flat-square">
 <img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed/codingburgas/finance-challenge-fintech">
@@ -53,7 +50,7 @@
 
 # 🌟Presenting and Team Documentation
 
-- [Documentation](https://codingburgas-my.sharepoint.com/:w:/g/personal/ssstefanov22_codingburgas_bg/EfsDtkfQzclJlVf-ufW7MGUB0n2cC7w0lEVMg-cGyIp3Hw?e=qrHpRn)
+- [Documentation](https://codingburgas-my.sharepoint.com/:w:/g/personal/pkhristova22_codingburgas_bg/EQfjcRJy5uxBoZyosqME3x0B9Nit6LA5pfGNT_2YzUkjGQ?e=3ZFkad)
 - [Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/ssstefanov22_codingburgas_bg/EcFumZNO0hdBiQNtpuqCA1YBmjItYecIR7tLo2XgejG0FQ?e=UYdiG8)
 
 <br>
