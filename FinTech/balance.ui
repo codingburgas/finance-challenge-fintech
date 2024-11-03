@@ -1612,9 +1612,9 @@ font-size: 35px;</string>
   <widget class="QLabel" name="label_amount1">
    <property name="geometry">
     <rect>
-     <x>581</x>
+     <x>570</x>
      <y>555</y>
-     <width>90</width>
+     <width>111</width>
      <height>31</height>
     </rect>
    </property>
@@ -1663,9 +1663,9 @@ font-family: inter;</string>
   <widget class="QLabel" name="label_transaction1">
    <property name="geometry">
     <rect>
-     <x>385</x>
+     <x>361</x>
      <y>555</y>
-     <width>141</width>
+     <width>161</width>
      <height>31</height>
     </rect>
    </property>
@@ -1699,9 +1699,9 @@ font-size: 35px;</string>
   <widget class="QLabel" name="label_amount2">
    <property name="geometry">
     <rect>
-     <x>581</x>
+     <x>570</x>
      <y>632</y>
-     <width>90</width>
+     <width>111</width>
      <height>31</height>
     </rect>
    </property>
@@ -1750,9 +1750,9 @@ font-family: inter;</string>
   <widget class="QLabel" name="label_transaction2">
    <property name="geometry">
     <rect>
-     <x>385</x>
+     <x>361</x>
      <y>632</y>
-     <width>141</width>
+     <width>161</width>
      <height>31</height>
     </rect>
    </property>
@@ -1786,9 +1786,9 @@ font-size: 35px;</string>
   <widget class="QLabel" name="label_amount3">
    <property name="geometry">
     <rect>
-     <x>581</x>
+     <x>570</x>
      <y>710</y>
-     <width>90</width>
+     <width>111</width>
      <height>31</height>
     </rect>
    </property>
@@ -1837,9 +1837,9 @@ font-family: inter;</string>
   <widget class="QLabel" name="label_transaction3">
    <property name="geometry">
     <rect>
-     <x>385</x>
+     <x>361</x>
      <y>710</y>
-     <width>141</width>
+     <width>161</width>
      <height>31</height>
     </rect>
    </property>
@@ -1873,9 +1873,9 @@ font-size: 35px;</string>
   <widget class="QLabel" name="label_amount4">
    <property name="geometry">
     <rect>
-     <x>581</x>
+     <x>570</x>
      <y>787</y>
-     <width>90</width>
+     <width>111</width>
      <height>31</height>
     </rect>
    </property>
@@ -1924,9 +1924,9 @@ font-family: inter;</string>
   <widget class="QLabel" name="label_transaction4">
    <property name="geometry">
     <rect>
-     <x>385</x>
+     <x>361</x>
      <y>787</y>
-     <width>141</width>
+     <width>161</width>
      <height>31</height>
     </rect>
    </property>
