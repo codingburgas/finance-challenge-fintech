@@ -1614,7 +1614,7 @@ font-size: 35px;</string>
     <rect>
      <x>570</x>
      <y>555</y>
-     <width>111</width>
+     <width>121</width>
      <height>31</height>
     </rect>
    </property>
@@ -1701,7 +1701,7 @@ font-size: 35px;</string>
     <rect>
      <x>570</x>
      <y>632</y>
-     <width>111</width>
+     <width>121</width>
      <height>31</height>
     </rect>
    </property>
@@ -1788,7 +1788,7 @@ font-size: 35px;</string>
     <rect>
      <x>570</x>
      <y>710</y>
-     <width>111</width>
+     <width>121</width>
      <height>31</height>
     </rect>
    </property>
@@ -1875,7 +1875,7 @@ font-size: 35px;</string>
     <rect>
      <x>570</x>
      <y>787</y>
-     <width>111</width>
+     <width>121</width>
      <height>31</height>
     </rect>
    </property>

@@ -41,6 +41,12 @@ Cards::Cards(QWidget *parent, const QString &username)
     ui->emptyVisa_5->setPixmap(pix12);
     QPixmap pix13("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/emptyVisa.png");
     ui->emptyVisa_6->setPixmap(pix13);
+    QPixmap pix14("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/plus.png");
+    ui->plus->setPixmap(pix14);
+    QPixmap pix15("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/plus.png");
+    ui->plus_1->setPixmap(pix15);
+    QPixmap pix16("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/plus.png");
+    ui->plus_2->setPixmap(pix16);
     DB_Connection = QSqlDatabase::addDatabase("QSQLITE");
 
     DB_Connection.setDatabaseName("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/DBTest.db");
