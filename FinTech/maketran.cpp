@@ -79,9 +79,9 @@ void makeTran::on_pushButton_clicked()
 
     // Prepare the update balance query
     if (transactionType == "Income") {
-        QueryUpdateBalance.prepare("UPDATE DB_Table SET currentBalance = currentBalance + :amount WHERE ID = :userId");
+        QueryUpdateBalance.prepare("UPDATE Users SET currentBalance = currentBalance + :amount WHERE ID = :userId");
     } else if (transactionType == "Outcome") {
-        QueryUpdateBalance.prepare("UPDATE DB_Table SET currentBalance = currentBalance - :amount WHERE ID = :userId");
+        QueryUpdateBalance.prepare("UPDATE Users SET currentBalance = currentBalance - :amount WHERE ID = :userId");
     }
 
     QueryUpdateBalance.bindValue(":amount", amount);
@@ -94,9 +94,10 @@ void makeTran::on_pushButton_clicked()
     } else {
         QSqlDatabase::database().commit();  // Commit if everything is successful
         qDebug() << "Transaction and balance updated successfully";
+        emit balanceUpdated();
+        this->accept();
     }
-
-    DB_Connection.close();
+   DB_Connection.close();
 }
 
 

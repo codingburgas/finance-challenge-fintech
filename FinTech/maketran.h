@@ -29,6 +29,9 @@ private:
     QString username;
     QSqlDatabase DB_Connection;
     int userId;
+
+signals:
+    void balanceUpdated();
 };
 
 #endif // MAKETRAN_H

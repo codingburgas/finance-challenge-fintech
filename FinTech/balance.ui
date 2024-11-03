@@ -1449,9 +1449,9 @@ font-family: inter;</string>
   <widget class="QLabel" name="label_money">
    <property name="geometry">
     <rect>
-     <x>800</x>
+     <x>819</x>
      <y>230</y>
-     <width>271</width>
+     <width>231</width>
      <height>51</height>
     </rect>
    </property>
@@ -1460,7 +1460,7 @@ font-family: inter;</string>
 font-weight:bold;</string>
    </property>
    <property name="text">
-    <string>11111</string>
+    <string/>
    </property>
   </widget>
   <widget class="QLabel" name="label_12">
@@ -1609,7 +1609,7 @@ font-size: 35px;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="label_19">
+  <widget class="QLabel" name="label_amount1">
    <property name="geometry">
     <rect>
      <x>576</x>
@@ -1626,7 +1626,7 @@ font-family: inter;</string>
     <string>$-10.00</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_20">
+  <widget class="QLabel" name="label_date1">
    <property name="geometry">
     <rect>
      <x>944</x>
@@ -1643,7 +1643,7 @@ font-family: inter;</string>
     <string>31/10/24</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_21">
+  <widget class="QLabel" name="label_category1">
    <property name="geometry">
     <rect>
      <x>746</x>
@@ -1660,7 +1660,7 @@ font-family: inter;</string>
     <string>Subscribtions</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_22">
+  <widget class="QLabel" name="label_transaction1">
    <property name="geometry">
     <rect>
      <x>360</x>
@@ -1696,7 +1696,7 @@ font-size: 35px;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="label_24">
+  <widget class="QLabel" name="label_amount2">
    <property name="geometry">
     <rect>
      <x>578</x>
@@ -1713,7 +1713,7 @@ font-family: inter;</string>
     <string>$-10.00</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_25">
+  <widget class="QLabel" name="label_date2">
    <property name="geometry">
     <rect>
      <x>944</x>
@@ -1730,7 +1730,7 @@ font-family: inter;</string>
     <string>31/10/24</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_26">
+  <widget class="QLabel" name="label_category2">
    <property name="geometry">
     <rect>
      <x>747</x>
@@ -1747,7 +1747,7 @@ font-family: inter;</string>
     <string>Subscribtions</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_27">
+  <widget class="QLabel" name="label_transaction2">
    <property name="geometry">
     <rect>
      <x>360</x>
@@ -1783,7 +1783,7 @@ font-size: 35px;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="label_29">
+  <widget class="QLabel" name="label_amount3">
    <property name="geometry">
     <rect>
      <x>578</x>
@@ -1800,7 +1800,7 @@ font-family: inter;</string>
     <string>$-10.00</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_big">
+  <widget class="QLabel" name="label_date3">
    <property name="geometry">
     <rect>
      <x>944</x>
@@ -1817,7 +1817,7 @@ font-family: inter;</string>
     <string>31/10/24</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_31">
+  <widget class="QLabel" name="label_category3">
    <property name="geometry">
     <rect>
      <x>748</x>
@@ -1834,7 +1834,7 @@ font-family: inter;</string>
     <string>Subscribtions</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_32">
+  <widget class="QLabel" name="label_transaction3">
    <property name="geometry">
     <rect>
      <x>360</x>
@@ -1870,7 +1870,7 @@ font-size: 35px;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="label_34">
+  <widget class="QLabel" name="label_amount4">
    <property name="geometry">
     <rect>
      <x>580</x>
@@ -1887,7 +1887,7 @@ font-family: inter;</string>
     <string>$-10.00</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_35">
+  <widget class="QLabel" name="label_date4">
    <property name="geometry">
     <rect>
      <x>944</x>
@@ -1904,7 +1904,7 @@ font-family: inter;</string>
     <string>31/10/24</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_36">
+  <widget class="QLabel" name="label_category4">
    <property name="geometry">
     <rect>
      <x>751</x>
@@ -1921,7 +1921,7 @@ font-family: inter;</string>
     <string>Subscribtions</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_37">
+  <widget class="QLabel" name="label_transaction4">
    <property name="geometry">
     <rect>
      <x>360</x>
@@ -2007,25 +2007,6 @@ QPushButton:hover {
    </property>
    <property name="checkable">
     <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_30">
-   <property name="geometry">
-    <rect>
-     <x>300</x>
-     <y>542</y>
-     <width>781</width>
-     <height>61</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background: transparent;
-border: none;
-border-radius: 8;
-font-size: 35px;</string>
-   </property>
-   <property name="text">
-    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="logOutBut">
@@ -2334,28 +2315,27 @@ font-size:16px;</string>
   <zorder>label_16</zorder>
   <zorder>label_17</zorder>
   <zorder>label_18</zorder>
-  <zorder>label_19</zorder>
-  <zorder>label_20</zorder>
-  <zorder>label_21</zorder>
-  <zorder>label_22</zorder>
+  <zorder>label_amount1</zorder>
+  <zorder>label_date1</zorder>
+  <zorder>label_category1</zorder>
+  <zorder>label_transaction1</zorder>
   <zorder>label_23</zorder>
-  <zorder>label_24</zorder>
-  <zorder>label_25</zorder>
-  <zorder>label_26</zorder>
-  <zorder>label_27</zorder>
+  <zorder>label_amount2</zorder>
+  <zorder>label_date2</zorder>
+  <zorder>label_category2</zorder>
+  <zorder>label_transaction2</zorder>
   <zorder>label_28</zorder>
-  <zorder>label_29</zorder>
-  <zorder>label_big</zorder>
-  <zorder>label_31</zorder>
-  <zorder>label_32</zorder>
+  <zorder>label_amount3</zorder>
+  <zorder>label_date3</zorder>
+  <zorder>label_category3</zorder>
+  <zorder>label_transaction3</zorder>
   <zorder>label_33</zorder>
-  <zorder>label_34</zorder>
-  <zorder>label_35</zorder>
-  <zorder>label_36</zorder>
-  <zorder>label_37</zorder>
+  <zorder>label_amount4</zorder>
+  <zorder>label_date4</zorder>
+  <zorder>label_category4</zorder>
+  <zorder>label_transaction4</zorder>
   <zorder>pushButton_8</zorder>
   <zorder>pushButton_9</zorder>
-  <zorder>label_30</zorder>
   <zorder>logOutBut</zorder>
   <zorder>label_2</zorder>
   <zorder>label_3</zorder>

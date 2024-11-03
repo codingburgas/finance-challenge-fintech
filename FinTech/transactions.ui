@@ -42,7 +42,7 @@
     <string/>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_5">
+  <widget class="QPushButton" name="pushButtonn">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -53,9 +53,6 @@
    </property>
    <property name="cursor">
     <cursorShape>PointingHandCursor</cursorShape>
-   </property>
-   <property name="autoFillBackground">
-    <bool>false</bool>
    </property>
    <property name="styleSheet">
     <string notr="true">QPushButton{
@@ -115,9 +112,6 @@ QPushButton:hover {
      <height>50</height>
     </rect>
    </property>
-   <property name="styleSheet">
-    <string notr="true"/>
-   </property>
    <property name="text">
     <string/>
    </property>
@@ -133,9 +127,6 @@ QPushButton:hover {
    </property>
    <property name="cursor">
     <cursorShape>PointingHandCursor</cursorShape>
-   </property>
-   <property name="autoFillBackground">
-    <bool>false</bool>
    </property>
    <property name="styleSheet">
     <string notr="true">QPushButton{
@@ -205,16 +196,13 @@ QPushButton:hover {
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>364</y>
+     <y>366</y>
      <width>211</width>
      <height>51</height>
     </rect>
    </property>
    <property name="cursor">
     <cursorShape>PointingHandCursor</cursorShape>
-   </property>
-   <property name="autoFillBackground">
-    <bool>false</bool>
    </property>
    <property name="styleSheet">
     <string notr="true">QPushButton{
@@ -500,531 +488,102 @@ border:none;</string>
     </property>
    </widget>
   </widget>
-  <widget class="QLabel" name="label_22">
+  <widget class="QScrollArea" name="scrollArea">
    <property name="geometry">
     <rect>
-     <x>1019</x>
-     <y>243</y>
-     <width>191</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font-size: 30px;
-font-family: inter;
-color: #6750A4;
-</string>
-   </property>
-   <property name="text">
-    <string>Subscribtions</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_23">
-   <property name="geometry">
-    <rect>
-     <x>381</x>
-     <y>230</y>
-     <width>91</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font-size: 30px;
-font-family: inter;</string>
-   </property>
-   <property name="text">
-    <string>Spotify</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_24">
-   <property name="geometry">
-    <rect>
-     <x>725</x>
+     <x>320</x>
      <y>240</y>
-     <width>121</width>
-     <height>31</height>
+     <width>1131</width>
+     <height>591</height>
     </rect>
    </property>
-   <property name="styleSheet">
-    <string notr="true">font-size: 30px;
-font-family: inter;
-color: #8B1F1F;</string>
+   <property name="widgetResizable">
+    <bool>true</bool>
    </property>
-   <property name="text">
-    <string>$-10.00</string>
-   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1129</width>
+      <height>589</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="transactionLayout"/>
+   </widget>
   </widget>
-  <widget class="QLabel" name="label_25">
+  <widget class="QPushButton" name="pushButton_5">
    <property name="geometry">
     <rect>
-     <x>1317</x>
-     <y>240</y>
-     <width>131</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font-size: 30px;
-font-family: inter;</string>
-   </property>
-   <property name="text">
-    <string>31/10/24</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_26">
-   <property name="geometry">
-    <rect>
-     <x>725</x>
-     <y>337</y>
-     <width>121</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font-size: 30px;
-font-family: inter;
-color: #8B1F1F;</string>
-   </property>
-   <property name="text">
-    <string>$-10.00</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_27">
-   <property name="geometry">
-    <rect>
-     <x>1317</x>
-     <y>337</y>
-     <width>131</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font-size: 30px;
-font-family: inter;</string>
-   </property>
-   <property name="text">
-    <string>31/10/24</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_28">
-   <property name="geometry">
-    <rect>
-     <x>381</x>
-     <y>327</y>
-     <width>91</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font-size: 30px;
-font-family: inter;</string>
-   </property>
-   <property name="text">
-    <string>Spotify</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_29">
-   <property name="geometry">
-    <rect>
-     <x>1019</x>
-     <y>340</y>
-     <width>191</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font-size: 30px;
-font-family: inter;
-color: #6750A4;
-</string>
-   </property>
-   <property name="text">
-    <string>Subscribtions</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_30">
-   <property name="geometry">
-    <rect>
-     <x>725</x>
-     <y>440</y>
-     <width>121</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font-size: 30px;
-font-family: inter;
-color: #8B1F1F;</string>
-   </property>
-   <property name="text">
-    <string>$-10.00</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_31">
-   <property name="geometry">
-    <rect>
-     <x>1317</x>
-     <y>440</y>
-     <width>131</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font-size: 30px;
-font-family: inter;</string>
-   </property>
-   <property name="text">
-    <string>31/10/24</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_32">
-   <property name="geometry">
-    <rect>
-     <x>381</x>
-     <y>430</y>
-     <width>91</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font-size: 30px;
-font-family: inter;</string>
-   </property>
-   <property name="text">
-    <string>Spotify</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_33">
-   <property name="geometry">
-    <rect>
-     <x>1019</x>
-     <y>443</y>
-     <width>191</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font-size: 30px;
-font-family: inter;
-color: #6750A4;
-</string>
-   </property>
-   <property name="text">
-    <string>Subscribtions</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_34">
-   <property name="geometry">
-    <rect>
-     <x>725</x>
-     <y>545</y>
-     <width>121</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font-size: 30px;
-font-family: inter;
-color: #8B1F1F;</string>
-   </property>
-   <property name="text">
-    <string>$-10.00</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_35">
-   <property name="geometry">
-    <rect>
-     <x>1317</x>
-     <y>545</y>
-     <width>131</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font-size: 30px;
-font-family: inter;</string>
-   </property>
-   <property name="text">
-    <string>31/10/24</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_36">
-   <property name="geometry">
-    <rect>
-     <x>381</x>
-     <y>535</y>
-     <width>91</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font-size: 30px;
-font-family: inter;</string>
-   </property>
-   <property name="text">
-    <string>Spotify</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_37">
-   <property name="geometry">
-    <rect>
-     <x>1019</x>
-     <y>548</y>
-     <width>191</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font-size: 30px;
-font-family: inter;
-color: #6750A4;
-</string>
-   </property>
-   <property name="text">
-    <string>Subscribtions</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_38">
-   <property name="geometry">
-    <rect>
-     <x>725</x>
-     <y>647</y>
-     <width>121</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font-size: 30px;
-font-family: inter;
-color: #8B1F1F;</string>
-   </property>
-   <property name="text">
-    <string>$-10.00</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_39">
-   <property name="geometry">
-    <rect>
-     <x>1317</x>
-     <y>647</y>
-     <width>131</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font-size: 30px;
-font-family: inter;</string>
-   </property>
-   <property name="text">
-    <string>31/10/24</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_40">
-   <property name="geometry">
-    <rect>
-     <x>381</x>
-     <y>637</y>
-     <width>91</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font-size: 30px;
-font-family: inter;</string>
-   </property>
-   <property name="text">
-    <string>Spotify</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_41">
-   <property name="geometry">
-    <rect>
-     <x>1019</x>
-     <y>650</y>
-     <width>191</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font-size: 30px;
-font-family: inter;
-color: #6750A4;
-</string>
-   </property>
-   <property name="text">
-    <string>Subscribtions</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_42">
-   <property name="geometry">
-    <rect>
-     <x>725</x>
-     <y>752</y>
-     <width>121</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font-size: 30px;
-font-family: inter;
-color: #8B1F1F;</string>
-   </property>
-   <property name="text">
-    <string>$-10.00</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_43">
-   <property name="geometry">
-    <rect>
-     <x>1317</x>
-     <y>752</y>
-     <width>131</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font-size: 30px;
-font-family: inter;</string>
-   </property>
-   <property name="text">
-    <string>31/10/24</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_44">
-   <property name="geometry">
-    <rect>
-     <x>381</x>
-     <y>742</y>
-     <width>91</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font-size: 30px;
-font-family: inter;</string>
-   </property>
-   <property name="text">
-    <string>Spotify</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_45">
-   <property name="geometry">
-    <rect>
-     <x>1019</x>
-     <y>755</y>
-     <width>191</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font-size: 30px;
-font-family: inter;
-color: #6750A4;
-</string>
-   </property>
-   <property name="text">
-    <string>Subscribtions</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="logOutBut">
-   <property name="geometry">
-    <rect>
-     <x>270</x>
-     <y>700</y>
-     <width>34</width>
-     <height>34</height>
+     <x>20</x>
+     <y>423</y>
+     <width>211</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="cursor">
     <cursorShape>PointingHandCursor</cursorShape>
    </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
    <property name="styleSheet">
-    <string notr="true">backgorund:none;
+    <string notr="true">QPushButton{
+background: transparent;
 border:none;
+border-radius: 8;
+font-size: 16px;
+font-weight: bold;
+padding-right: 50px;
+color:white;
+}
+
+QPushButton:hover {
+	border: 1.5px solid white;
+}
 </string>
    </property>
    <property name="text">
-    <string/>
-   </property>
-   <property name="checkable">
-    <bool>true</bool>
+    <string>Card</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="logOutBut_2">
+  <widget class="QPushButton" name="pushButton_7">
    <property name="geometry">
     <rect>
-     <x>182</x>
-     <y>770</y>
-     <width>34</width>
-     <height>34</height>
+     <x>20</x>
+     <y>300</y>
+     <width>211</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="cursor">
     <cursorShape>PointingHandCursor</cursorShape>
    </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
    <property name="styleSheet">
-    <string notr="true">backgorund:none;
-border:none;
+    <string notr="true">QPushButton{
+background: transparent;
+border-radius: 8;
+font-size: 16px;
+padding-right:50px;
+color:white;
+ font-weight: bold;
+}
+
+QPushButton:hover {
+	border: 1.5px solid white;
+}
 </string>
    </property>
    <property name="text">
-    <string/>
+    <string>Home</string>
    </property>
    <property name="checkable">
     <bool>true</bool>
    </property>
   </widget>
-  <zorder>label</zorder>
-  <zorder>Logo</zorder>
-  <zorder>settings</zorder>
-  <zorder>pushButton_5</zorder>
-  <zorder>account</zorder>
-  <zorder>logOut</zorder>
-  <zorder>Home</zorder>
-  <zorder>pushButton</zorder>
-  <zorder>Card</zorder>
-  <zorder>fileImg</zorder>
-  <zorder>pushButton_3</zorder>
-  <zorder>pushButton_4</zorder>
-  <zorder>account_2</zorder>
-  <zorder>label_username_t</zorder>
-  <zorder>logOut_2</zorder>
-  <zorder>line_2</zorder>
-  <zorder>settings_2</zorder>
-  <zorder>label_17</zorder>
-  <zorder>label_14</zorder>
-  <zorder>label_15</zorder>
-  <zorder>label_16</zorder>
-  <zorder>label_18</zorder>
-  <zorder>line_3</zorder>
-  <zorder>label_19</zorder>
-  <zorder>groupBox</zorder>
-  <zorder>label_22</zorder>
-  <zorder>label_23</zorder>
-  <zorder>label_24</zorder>
-  <zorder>label_25</zorder>
-  <zorder>label_26</zorder>
-  <zorder>label_27</zorder>
-  <zorder>label_28</zorder>
-  <zorder>label_29</zorder>
-  <zorder>label_30</zorder>
-  <zorder>label_31</zorder>
-  <zorder>label_32</zorder>
-  <zorder>label_33</zorder>
-  <zorder>label_34</zorder>
-  <zorder>label_35</zorder>
-  <zorder>label_36</zorder>
-  <zorder>label_37</zorder>
-  <zorder>label_38</zorder>
-  <zorder>label_39</zorder>
-  <zorder>label_40</zorder>
-  <zorder>label_41</zorder>
-  <zorder>label_42</zorder>
-  <zorder>label_43</zorder>
-  <zorder>label_44</zorder>
-  <zorder>label_45</zorder>
-  <zorder>logOutBut</zorder>
-  <zorder>logOutBut_2</zorder>
  </widget>
  <resources/>
  <connections/>

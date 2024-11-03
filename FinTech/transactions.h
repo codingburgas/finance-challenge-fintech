@@ -29,10 +29,13 @@ private slots:
     void on_pushButton_clicked();
 
     void on_logOutBut_2_clicked();
+    void on_pushButton_7_clicked();
 
 private:
     Ui::Transactions *ui;
       QString username;
+    QSqlDatabase DB_Connection;
+    void fetchAndDisplayTransactions();
 
 };
 

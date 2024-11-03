@@ -61,7 +61,7 @@ void MainWindow::on_pushButton_clicked()
 
 
         QSqlQuery QueryGetUser(DB_Connection);
-        QueryGetUser.prepare("SELECT * FROM DB_Table WHERE Username ='" + UserName + "' AND Password ='" + Password + "'");
+        QueryGetUser.prepare("SELECT * FROM Users WHERE Username ='" + UserName + "' AND Password ='" + Password + "'");
         if(QueryGetUser.exec())
         {
             int UserFindCount = 0;
