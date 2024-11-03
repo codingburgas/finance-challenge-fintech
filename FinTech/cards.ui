@@ -565,7 +565,7 @@ border:none;
   <widget class="QLabel" name="plus_2">
    <property name="geometry">
     <rect>
-     <x>583</x>
+     <x>587</x>
      <y>547</y>
      <width>159</width>
      <height>159</height>

@@ -16,6 +16,7 @@ makeTran::makeTran(QWidget *parent, const QString &username, int userId)
     , ui(new Ui::makeTran)
     , userId(userId)
 {
+    this->username=username;
     ui->setupUi(this);
 
     // Initialize combo box
@@ -61,8 +62,22 @@ void makeTran::on_pushButton_clicked()
     QueryInsertData.bindValue(":Amount", ui->txt_amount->text().toDouble());
     QueryInsertData.bindValue(":Category", ui->comboBox->currentText());
 
-    int userId = 1; // Make sure you replace this with the actual user ID you want to use
+    QSqlQuery userQuery;
+    int userId = -1;
+
+    userQuery.prepare("SELECT ID FROM Users WHERE Username = :username");
+    userQuery.bindValue(":username", username);
+    qDebug() << username;
+    if (userQuery.exec() && userQuery.next()) {
+        userId = userQuery.value(0).toInt();
+    } else {
+        qDebug() << "User ID query execution error: " << userQuery.lastError().text();
+        return; // Exit if we couldn't retrieve the user ID
+    }
+    if (userId != -1)
+    {
     QueryInsertData.bindValue(":userId", userId);
+    }
 
     // Execute the insert query
     if (!QueryInsertData.exec()) {
