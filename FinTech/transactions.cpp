@@ -126,8 +126,8 @@ void Transactions::fetchAndDisplayTransactions() {
             QLabel *dateLabel = new QLabel(date);
 
             // Style the labels
-            transactionLabel->setStyleSheet("font-size: 30px; font-family: inter; margin-left: 80px;");
-            amountLabel->setStyleSheet("font-size: 30px; font-family: inter; color: #8B1F1F; margin-left: 110px;");
+            transactionLabel->setStyleSheet("font-size: 30px; font-family: inter; margin-left: 60px;");
+            amountLabel->setStyleSheet("font-size: 30px; font-family: inter; color: #8B1F1F; margin-left: 90px;");
             categoryLabel->setStyleSheet("font-size: 30px; font-family: inter; color: #6750A4; margin-left: 70px;");
             dateLabel->setStyleSheet("font-size: 30px; font-family: inter;");
 
