@@ -18,15 +18,15 @@ Transactions::Transactions(const QString &username, QWidget *parent)
 {
     ui->setupUi(this);
 
-      ui->label_username_t->setText("Welcome," + username);
+      ui->label_username_t->setText(username);
     QPixmap pix("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/image 1.png");
-    ui->Logo->setPixmap(pix);
+    ui->Logo_2->setPixmap(pix);
     QPixmap pix1("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/Home.png");
-    ui->Home->setPixmap(pix1.scaled(40,40));
+    ui->Home_2->setPixmap(pix1.scaled(40,40));
     QPixmap pix2("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/File.png");
-    ui->fileImg->setPixmap(pix2.scaled(40,40));
+    ui->fileImg_2->setPixmap(pix2.scaled(40,40));
     QPixmap pix4("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/Card.png");
-    ui->Card->setPixmap(pix4.scaled(40,40));
+    ui->Card_2->setPixmap(pix4.scaled(40,40));
     QPixmap pix5("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/account_circle.png");
     ui->account_2->setPixmap(pix5);
     QPixmap pix6("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/FinTech/assets/logOut.png");
@@ -35,7 +35,7 @@ Transactions::Transactions(const QString &username, QWidget *parent)
     ui->settings_2->setPixmap(pix7);
 
     DB_Connection = QSqlDatabase::addDatabase("QSQLITE");
-    DB_Connection.setDatabaseName("C:/Users/Nikolay/Documents/finance-challenge-fintech/DBTest.db");
+    DB_Connection.setDatabaseName("C:/Users/simeo/Documents/school projects/finance-challenge-fintech/DBTest.db");
 
 
 
@@ -126,9 +126,9 @@ void Transactions::fetchAndDisplayTransactions() {
             QLabel *dateLabel = new QLabel(date);
 
             // Style the labels
-            transactionLabel->setStyleSheet("font-size: 30px; font-family: inter;");
-            amountLabel->setStyleSheet("font-size: 30px; font-family: inter; color: #8B1F1F;");
-            categoryLabel->setStyleSheet("font-size: 30px; font-family: inter; color: #6750A4;");
+            transactionLabel->setStyleSheet("font-size: 30px; font-family: inter; margin-left: 80px;");
+            amountLabel->setStyleSheet("font-size: 30px; font-family: inter; color: #8B1F1F; margin-left: 110px;");
+            categoryLabel->setStyleSheet("font-size: 30px; font-family: inter; color: #6750A4; margin-left: 70px;");
             dateLabel->setStyleSheet("font-size: 30px; font-family: inter;");
 
             // Layout for a single transaction row
@@ -152,5 +152,12 @@ void Transactions::on_pushButton_7_clicked()
     Balance balance(username);
     balance.setModal(true);
     balance.exec();
+}
+
+void Transactions::on_pushButton_2_clicked()
+{
+    hide();
+    MainWindow *mainwindow = new MainWindow();
+    mainwindow->show();
 }
 
